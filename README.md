@@ -1,3 +1,9 @@
+# RS2
+
+## Dokumentacija za kurs RS2 na master studijama Matematičkog fakulteta Univerziteta u Beogradu
+
+Plan i program kursa [Razvoj softvera 2](http://www.math.rs/files/R390_-_Razvoj_softvera_2.pdf){:target="_blank"} sa sajta fakulteta. 
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MatfRS2/RS2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
