@@ -1,6 +1,5 @@
-## Razvoj softvera 2
+# Развој софтвера 2
 
-Ovaj sajt sadrži materijale za kurs RS2 na master studijama Matematičkog fakulteta Univerziteta u Beogradu.
+Овај сајт садржи материјале за курс **Развој софтвера 2** на мастер студијама Математичког факултета Универзитета у Београду.
 
-Plan i program kursa [Razvoj softvera 2](http://www.math.rs/files/R390_-_Razvoj_softvera_2.pdf){:target="_blank"} sa sajta fakulteta. 
-
+План и програм курса [Развој софтвера 2](/predavanja/info/R390_-_Razvoj_softvera_2.pdf){:target="_blank"}  
