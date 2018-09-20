@@ -28,9 +28,8 @@ Asistent: dr Danijela Simić www.matf.bg.ac.rs/~danijela
 
 * Instalacije, rad u Visual Studio Code
 * ASP.NET Core MVC upoznavanje
-
-* Primer1 -- jednostavan template
-* Primer2 -- upoznavanje sa radom
-* Primer3 -- jednostavan unos podataka (in-memory baza)
+  * Primer1 -- jednostavan template
+  * Primer2 -- upoznavanje sa radom
+  * Primer3 -- jednostavan unos podataka (in-memory baza)
 
 **II čas** -- C#, Razor, LINQ
