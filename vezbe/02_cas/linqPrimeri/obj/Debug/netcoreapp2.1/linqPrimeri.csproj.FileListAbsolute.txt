@@ -1,0 +1,11 @@
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/bin/Debug/netcoreapp2.1/linqPrimeri.deps.json
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/bin/Debug/netcoreapp2.1/linqPrimeri.runtimeconfig.json
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/bin/Debug/netcoreapp2.1/linqPrimeri.runtimeconfig.dev.json
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/bin/Debug/netcoreapp2.1/linqPrimeri.dll
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/bin/Debug/netcoreapp2.1/linqPrimeri.pdb
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/obj/Debug/netcoreapp2.1/linqPrimeri.csprojAssemblyReference.cache
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/obj/Debug/netcoreapp2.1/linqPrimeri.csproj.CoreCompileInputs.cache
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/obj/Debug/netcoreapp2.1/linqPrimeri.AssemblyInfoInputs.cache
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/obj/Debug/netcoreapp2.1/linqPrimeri.AssemblyInfo.cs
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/obj/Debug/netcoreapp2.1/linqPrimeri.dll
+/home/danijela/Documents/Razvoj softvera 2/vezbe/02_cas/linqPrimeri/obj/Debug/netcoreapp2.1/linqPrimeri.pdb

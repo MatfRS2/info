@@ -33,3 +33,11 @@ Asistent: dr Danijela Simić www.matf.bg.ac.rs/~danijela
   * Primer3 -- jednostavan unos podataka (in-memory baza)
 
 **II čas** -- C#, Razor, LINQ
+
+* C# -- neka interesantna svojstva: 
+  * null conditional operator, set, get (prop), formatiranje stringova, kolekcije, pattern matching (is, when), lambda izrazi, asihroni metodi, anonimni tipovi, IEnumerable...
+
+* Razor -- osnove
+   * _ViewImports, Layout, _ViewStart, ViewBag, iteracija, uslovni izrazi, kolekcije
+
+* LINQ -- osnove
