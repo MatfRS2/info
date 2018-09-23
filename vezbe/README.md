@@ -4,7 +4,7 @@
 
 Овај сајт садржи вежбе за предмет **Развој софтвера 2** на мастер студијама на Математичком факултету.
 
-Професор: [др Владо Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"} 
+Професор: [др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"} 
 
 Асистент: [др Данијела Симић](www.matf.bg.ac.rs/~danijela){:target="_blank"} 
 
