@@ -30,3 +30,35 @@
 /home/danijela/Documents/Razvoj softvera 2/primer1/obj/Debug/netcoreapp2.1/primer1.dll
 /home/danijela/Documents/Razvoj softvera 2/primer1/obj/Debug/netcoreapp2.1/primer1.pdb
 /home/danijela/Documents/Razvoj softvera 2/primer1/obj/Debug/netcoreapp2.1/primer1.csproj.CopyComplete
+C:\Courses\RS2\vezbe\01_cas\primer1\bin\Debug\netcoreapp2.1\primer1.deps.json
+C:\Courses\RS2\vezbe\01_cas\primer1\bin\Debug\netcoreapp2.1\primer1.runtimeconfig.json
+C:\Courses\RS2\vezbe\01_cas\primer1\bin\Debug\netcoreapp2.1\primer1.runtimeconfig.dev.json
+C:\Courses\RS2\vezbe\01_cas\primer1\bin\Debug\netcoreapp2.1\primer1.dll
+C:\Courses\RS2\vezbe\01_cas\primer1\bin\Debug\netcoreapp2.1\primer1.pdb
+C:\Courses\RS2\vezbe\01_cas\primer1\bin\Debug\netcoreapp2.1\primer1.Views.dll
+C:\Courses\RS2\vezbe\01_cas\primer1\bin\Debug\netcoreapp2.1\primer1.Views.pdb
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.csprojAssemblyReference.cache
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.csproj.CoreCompileInputs.cache
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.RazorAssemblyInfo.cache
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.RazorAssemblyInfo.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.AssemblyInfoInputs.cache
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.AssemblyInfo.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.TagHelpers.input.cache
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.TagHelpers.output.cache
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.RazorCoreGenerate.cache
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.RazorTargetAssemblyInfo.cache
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.RazorTargetAssemblyInfo.cs
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.Views.pdb
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.dll
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.pdb
+C:\Courses\RS2\vezbe\01_cas\primer1\obj\Debug\netcoreapp2.1\primer1.csproj.CopyComplete

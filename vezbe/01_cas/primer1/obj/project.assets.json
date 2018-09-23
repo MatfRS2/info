@@ -11500,28 +11500,31 @@
     ]
   },
   "packageFolders": {
-    "/home/danijela/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\vlado.filipovic\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danijela/Documents/Razvoj softvera 2/primer1/primer1.csproj",
+      "projectUniqueName": "C:\\Courses\\RS2\\vezbe\\01_cas\\primer1\\primer1.csproj",
       "projectName": "primer1",
-      "projectPath": "/home/danijela/Documents/Razvoj softvera 2/primer1/primer1.csproj",
-      "packagesPath": "/home/danijela/.nuget/packages/",
-      "outputPath": "/home/danijela/Documents/Razvoj softvera 2/primer1/obj/",
+      "projectPath": "C:\\Courses\\RS2\\vezbe\\01_cas\\primer1\\primer1.csproj",
+      "packagesPath": "C:\\Users\\vlado.filipovic\\.nuget\\packages\\",
+      "outputPath": "C:\\Courses\\RS2\\vezbe\\01_cas\\primer1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/danijela/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vlado.filipovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Prog\\OlimpBettingWebService\\SharedNugetsFromExtended": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
