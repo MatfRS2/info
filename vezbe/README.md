@@ -1,43 +1,47 @@
-# Razvoj softvera 2 @ MATF
+# Вежбе -- Развој софтвера 2 @ Математички факултет
 
-Vezbe za predmet **Razvoj softvera 2** na master studijama na Matematičkom fakultetu.
+[повратак](../README.md)
 
-Profesor: dr Vlada Filipovic https://vladofilipovic.github.io/index-en.html
+Овај сајт садржи вежбе за предмет **Развој софтвера 2** на мастер студијама на Математичком факултету.
 
-Asistent: dr Danijela Simić www.matf.bg.ac.rs/~danijela
+Професор: [др Владо Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"} 
 
-## Uputstvo za studente
+Асистент: [др Данијела Симић](www.matf.bg.ac.rs/~danijela){:target="_blank"} 
 
-**Inicijalna podešavanja**
+## Упутство за студенте
 
-* Instalirati git
-* Napraviti nalog na github-u
-* Napraviti folder na lokalnom računaru, pozicionirati se u folder i klonirati repozirotijum komandom git clone https://github.com/MatfRS2/RS2.git
+**Иницијална подешавања**
 
-**Instalacije**
+* Инсталирати `git`
+* Направити налог на `github`
+* Направити фолдер на локалном рачунару, позиционирати се у фолдер и клонирати репозиторијум командом ```git clone https://github.com/MatfRS2/RS2.git```
 
-* Visual Studio Code: https://code.visualstudio.com/Download?wt.mc_id=DotNet_Home
-* SQL Server: http://www.maxtblog.com/2018/07/installing-ms-sql-server-in-ubuntu-18-04/
-* .NET SDK: https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial
+**Инсталације**
+
+* [Visual Studio Code](https://code.visualstudio.com/Download?wt.mc_id=DotNet_Home)
+* [SQL Server](http://www.maxtblog.com/2018/07/installing-ms-sql-server-in-ubuntu-18-04/)
+* [.NET SDK](https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial)
 * U Visual Stdio Code -- Extensions: C#, GitLens
 
 
-## Vežbe
+## Вежбе
 
-**I čas** -- Upoznavanje
+**I час** -- Упознавање
 
-* Instalacije, rad u Visual Studio Code
-* ASP.NET Core MVC upoznavanje
-  * Primer1 -- jednostavan template
-  * Primer2 -- upoznavanje sa radom
-  * Primer3 -- jednostavan unos podataka (in-memory baza)
+* Инсталације, рад у `Visual Studio Code`
+* `ASP.NET Core MVC` упознавање
+  * Primer1 -- коришћење постојећег шаблона
+  * Primer2 -- упознавање
+  * Primer3 -- једноставан унос података (база у радној меморији)
 
-**II čas** -- C#, Razor, LINQ
+**II час** -- C#, Razor, LINQ
 
-* C# -- neka interesantna svojstva: 
-  * null conditional operator, set, get (prop), formatiranje stringova, kolekcije, pattern matching (is, when), lambda izrazi, asihroni metodi, anonimni tipovi, IEnumerable...
+* C# -- нека интересантна својства: 
+  * null conditional operator, set, get (prop), форматирање стрингова, колекције, pattern matching (is, when), ламбда изрази, асихрони методи, анонимни типови, IEnumerable...
 
-* Razor -- osnove
-   * _ViewImports, Layout, _ViewStart, ViewBag, iteracija, uslovni izrazi, kolekcije
+* Razor -- основе
+   * _ViewImports, Layout, _ViewStart, ViewBag, итерација, условни изрази, колекције
 
-* LINQ -- osnove
+* LINQ -- основе
+
+[повратак](../README.md)
