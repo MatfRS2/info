@@ -7,7 +7,7 @@
 
 ## Структура веб презентације
 
-* **[Предавања](/predavanja/README.md)**
+* **[Предавања](/predavanja/info/)**
 
 * **[Вежбе](/vezbe/README.md)**
 
