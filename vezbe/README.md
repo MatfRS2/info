@@ -37,10 +37,10 @@
 **II час** -- C#, Razor, LINQ
 
 * C# -- нека интересантна својства: 
-  * null conditional operator, set, get (prop), форматирање стрингова, колекције, pattern matching (is, when), ламбда изрази, асихрони методи, анонимни типови, IEnumerable...
+  * `null conditional operator`, `set`, `get` (`prop`), форматирање стрингова, колекције, pattern matching (`is`, `when`), ламбда изрази, асихрони методи, анонимни типови, `IEnumerable`...
 
 * Razor -- основе
-   * _ViewImports, Layout, _ViewStart, ViewBag, итерација, условни изрази, колекције
+   * `_ViewImports`, `Layout`, `_ViewStart`, `ViewBag`, итерација, условни изрази, колекције
 
 * LINQ -- основе
 
