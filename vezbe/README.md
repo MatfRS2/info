@@ -42,10 +42,11 @@
 
 * [_LINQ_ -- основе](./02_cas/linqPrimeri/README.md)
 
-**III час** -- Повезивање апликације са `SQL Serverom`
+**III час** -- `SQL Serverom`, креирање веб продавнице
 
-* Пример 1
+* [Пример 1](./03_cas/primer4/README.md) -- Повезивање апликације са `SQL Serverom`
 
-* Пример 2
+* [Пример 2](./03_cas/ProdavnicaKozmetike/README.md) -- Креирање веб продавнице (увод)
+
 
 [повратак](../README.md)
