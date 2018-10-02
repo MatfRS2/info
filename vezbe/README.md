@@ -37,15 +37,12 @@
 **II час** -- _C#_, _Razor_, _LINQ_
 
 * [_C#_ -- нека интересантна својства](./02_cas/csharpPrimeri/README.md) 
-  
 * [_Razor_ -- основе](./02_cas/razorPrimeri/README.md)
-
 * [_LINQ_ -- основе](./02_cas/linqPrimeri/README.md)
 
 **III час** -- `SQL Serverom`, креирање веб продавнице
 
 * [Пример 1](./03_cas/primer4/README.md) -- Повезивање апликације са `SQL Serverom`
-
 * [Пример 2](./03_cas/ProdavnicaKozmetike/README.md) -- Креирање веб продавнице (увод)
 
 

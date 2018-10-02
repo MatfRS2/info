@@ -2,7 +2,7 @@
 
 [повратак](../../README.md)
 
-Измена [примера 3](./01_cas/primer4/README.md) са првог часа тако да се подаци чувају у бази на серверу _SQL Server_.
+Измена [примера 3](../../01_cas/primer4/README.md) са првог часа тако да се подаци чувају у бази на серверу _SQL Server_.
 
 Упознавање са окружењем [_Azure Data Studio_](https://azure.microsoft.com/en-us/updates/azure-data-studio-is-now-available/).
 
