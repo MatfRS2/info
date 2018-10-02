@@ -30,18 +30,22 @@
 
 * Инсталације, рад у `Visual Studio Code`
 * `ASP.NET Core MVC` упознавање
-  * Primer1 -- коришћење постојећег шаблона
-  * Primer2 -- упознавање
-  * Primer3 -- једноставан унос података (база у радној меморији)
+  * [Пример 1](./01_cas/primer1/README.md) -- коришћење постојећег шаблона
+  * [Пример 2](./01_cas/primer2/README.md) -- упознавање
+  * [Пример 3](./01_cas/primer4/README.md) -- једноставан унос података (база у радној меморији)
 
-**II час** -- C#, Razor, LINQ
+**II час** -- _C#_, _Razor_, _LINQ_
 
-* C# -- нека интересантна својства: 
-  * `null conditional operator`, `set`, `get` (`prop`), форматирање стрингова, колекције, pattern matching (`is`, `when`), ламбда изрази, асихрони методи, анонимни типови, `IEnumerable`...
+* [_C#_ -- нека интересантна својства](./02_cas/csharpPrimeri/README.md) 
+  
+* [_Razor_ -- основе](./02_cas/razorPrimeri/README.md)
 
-* Razor -- основе
-   * `_ViewImports`, `Layout`, `_ViewStart`, `ViewBag`, итерација, условни изрази, колекције
+* [_LINQ_ -- основе](./02_cas/linqPrimeri/README.md)
 
-* LINQ -- основе
+**III час** -- Повезивање апликације са `SQL Serverom`
+
+* Пример 1
+
+* Пример 2
 
 [повратак](../README.md)
