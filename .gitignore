@@ -1,0 +1,23 @@
+# Pogledati https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+# ukoliko je potrebno dodati jos pravila
+
+# Ignoring files build by Visual Studio
+
+*.user
+*.aps
+*.pch
+*.vspscc
+*._i.c
+*._p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in/
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
