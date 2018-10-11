@@ -11,4 +11,6 @@
 
 * **[Вежбе](/vezbe/README.md)**
 
+* **[Инсталације](/INSTALACIJE.md)**
 
+* **[Ресурси за учење](/RESURSI-ZA-UCENJE.md)**
