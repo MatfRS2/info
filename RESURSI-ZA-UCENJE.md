@@ -10,11 +10,12 @@
 
   * McCormic S.: [AntiPatterns Tutorial](http://antipatterns.com/briefing/index.htm){:target="_blank"}
 
+  * [Lessons From a Decade of IT Failures](https://spectrum.ieee.org/static/lessons-from-a-decade-of-it-failures?utm_campaign=Weekly%20Notification-%20IEEE%20Spectrum%20Tech%20Alert&utm_source=boomtrain&utm_medium=email&utm_term=555a972628fbca1d260da1ba&utm_content=Lessons%20From%20a%20Decade%20of%20IT){:target="_blank"} - IEEE Spectrum, [кеширано](/predavanja/literatura/softverske-greske/README.md){:target="_blank"}
+
+  * [Agile Tutorial](https://www.tutorialspoint.com/agile/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Agile.pdf){:target="_blank"}
+
+
 * Књиге и туторијали за језике за означавање
-
-  * [Brief SGML Tutorial](https://www.w3.org/TR/WD-html40-970708/intro/sgmltut.html){:target="_blank"} - W3C
-
-  * [DTD Tutorial](https://www.w3schools.com/xml/xml_dtd_intro.asp){:target="_blank"} - W3Schools
 
   * [DTD Tutorial](https://www.tutorialspoint.com/dtd/index.htm){:target="_blank"} - TutorialsPoint
 
