@@ -22,6 +22,7 @@
 * [SQL Server](http://www.maxtblog.com/2018/07/installing-ms-sql-server-in-ubuntu-18-04/)
 * [.NET SDK](https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial)
 * U Visual Stdio Code -- Extensions: C#, GitLens
+* [_Azure Data Studio_](https://azure.microsoft.com/en-us/updates/azure-data-studio-is-now-available/).
 
 
 ## Вежбе
@@ -40,10 +41,15 @@
 * [_Razor_ -- основе](./02_cas/razorPrimeri/README.md)
 * [_LINQ_ -- основе](./02_cas/linqPrimeri/README.md)
 
-**III час** -- `SQL Serverom`, креирање веб продавнице
+**III час** -- повезивање са `SQL Serverom`, Тестирање
 
 * [Пример 1](./03_cas/primer4/README.md) -- Повезивање апликације са `SQL Serverom`
-* [Пример 2](./03_cas/ProdavnicaKozmetike/README.md) -- Креирање веб продавнице (увод)
+* [Пример 2](./03_cas/UnitTesting/README.md) -- Основе тестирања
+
+
+**IV час** -- креирање веб продавнице
+
+* [Пример](./04_cas/README.md) -- Креирање веб продавнице
 
 
 [повратак](../README.md)
