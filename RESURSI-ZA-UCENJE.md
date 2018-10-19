@@ -30,15 +30,19 @@
 
 * Књиге и упутства за архитектуре софтверских система
 
+  * De la Torre - Architecting Modern Web Applications with ASP.NET Core and Azure, 2nd Edition
+
+  * De la Torre - Modernize Existing .NET applications with Azure cloud and Windows Containers
+
+  * De la Torre - Architecting Modern Web Applications with ASP.NET Core and Azure, 2nd Edition
+
+  * De la Torrre C.: [.NET Technology Guide for Business Applications](https://blogs.msdn.microsoft.com/microsoft_press/2013/11/13/free-ebook-net-technology-guide-for-business-applications/){:target="_blank"} - Microsoft Press, 2013, [.pdf](/predavanja/literatura/De la Torrre - NET Technology Guide for Business Applications.pdf){:target="_blank"}
+
   * [Software Architecture and Design Tutorial](https://www.tutorialspoint.com/software_architecture_design/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Architecture and Designn.pdf){:target="_blank"}
-
-* Књиге и упутства за моделирање података
-
-  * [SEO Tutorial](http://www.tutorialspoint.com/seo/){:target="_blank"} - TutorialsPoint
 
 * Књиге и упутства за микросервисе
 
-  * [SEO Tutorial](http://www.tutorialspoint.com/seo/){:target="_blank"} - TutorialsPoint
+  * De la Torre - Containerized Docker Application Lifecycle with Microsoft Platform and Tools
 
 * Компоненте .NET Core екосистема
 
