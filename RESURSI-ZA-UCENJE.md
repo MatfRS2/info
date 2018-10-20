@@ -36,7 +36,7 @@
 
   * [Agile Tutorial](https://www.tutorialspoint.com/agile/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Agile.pdf){:target="_blank"}
 
-  * Scrum team - Scrum Guide
+  * Schwaber K, Sutherland J.: [Scrum Guide](https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf), 2017, [.pdf](/predavanja/literatura/Scrum team - Scrum Guide.pdf){:target="_blank"}
 
   * [Continous Integration Tutorial](https://www.tutorialspoint.com/continuous_integration/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Continous Integration.pdf){:target="_blank"}
 
