@@ -58,8 +58,6 @@
 
   * [Software Architecture and Design Tutorial](https://www.tutorialspoint.com/software_architecture_design/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Architecture and Designn.pdf){:target="_blank"}
 
-  * Engelbert - Caching Strategies Explained - Whitepaper
-
   * Green R. - How To Write Unmaintainable Code
 
 * Књиге, чланци и упутства за **микросервисе**
