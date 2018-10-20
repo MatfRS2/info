@@ -10,9 +10,9 @@
 
   * Brown B. et al.: [AntiPatterns: Refactoring Software, Architectures, and Projects in Crisis](http://antipatterns.com/briefing/index.htm){:target="_blank"} - Willey, 1998.
 
-  * McConnelly - Code Complete
+  * McConnell S.: [Code Complete, 2. edition](https://www.oreilly.com/library/view/code-complete-second/0735619670/){:target="_blank"} - Microsoft Press, 2004.
 
-  * Peters - Getting Results from Software Development Teams
+  * Peters L.: [Getting Results from Software Development Teams](https://www.oreilly.com/library/view/getting-results-from/9780735623460/){:target="_blank"} - Microsoft Press, 2008.
 
   * [Lessons From a Decade of IT Failures](https://spectrum.ieee.org/static/lessons-from-a-decade-of-it-failures?utm_campaign=Weekly%20Notification-%20IEEE%20Spectrum%20Tech%20Alert&utm_source=boomtrain&utm_medium=email&utm_term=555a972628fbca1d260da1ba&utm_content=Lessons%20From%20a%20Decade%20of%20IT){:target="_blank"} - IEEE Spectrum, [кеширано](/predavanja/literatura/softverske-greske/README.md){:target="_blank"}
 
@@ -20,15 +20,15 @@
 
 * Књиге, чланци и упутства за **Агилну методологију** развоја софтвера  
 
-  * Blakenship - Pro Agile .NET Development with Scrum
+  * Blakenship et al.: [Pro Agile .NET Development with Scrum](https://www.apress.com/us/book/9781430235330){:target="_blank"} - Apress, 2011.
 
-  * Blackman B. et al.: [Managing Agile Software Projects with Visual Studio Online](https://blogs.msdn.microsoft.com/microsoft_press/2015/04/09/free-ebook-managing-agile-open-source-software-projects-with-microsoft-visual-studio-online/){:target="_blank"} - Microsoft Press, 2015., [.pdf](/predavanja/literatura/Blackman - Managing Agile Software Projects with Visual Studio Online.pdf){:target="_blank"}
+  * Blackman B. et al.: [Managing Agile Software Projects with Visual Studio Online](https://blogs.msdn.microsoft.com/microsoft_press/2015/04/09/free-ebook-managing-agile-open-source-software-projects-with-microsoft-visual-studio-online/){:target="_blank"} - Microsoft Press, 2015, [.pdf](/predavanja/literatura/Blackman - Managing Agile Software Projects with Visual Studio Online.pdf){:target="_blank"}
 
-  * Hundhausen - Professional Scrum Development with Microsoft Visual Studio 2012
+  * Guckenheimer S.: [Agile Software Engineering with Visual Studio, 2nd Edition](http://www.pearson.com.au/products/D-G-Guckenheimer-Sam-Loje-Neno/Agile-Software-Engineering-with-Visual-Studio-From-Concept-to-Continuous-Feedback-eBook/9780321675576?R=9780321675576){:target="_blank"} - Addison Weasly, 2012.
 
-  * Viscardi - Professional ScrumMaster's Handbook
+  * Hundhausen R.: [Professional Scrum Development with Microsoft Visual Studio 2012](https://www.pearson.com/us/higher-education/program/Hundhausen-Professional-Scrum-Development-with-Microsoft-Visual-Studio-2012/PGM173629.html){:target="_blank"} - Microsoft Press, 2012.
 
-  * Guckenheimer - Agile Software Engineering with Visual Studio, 2nd Edition
+  * Viscardi S.: [Professional ScrumMaster's Handbook](https://www.packtpub.com/application-development/professional-scrummasters-handbook){:target="_blank"} - Pact Publishing, 2013.
 
   * [Манифест агилног развоја софтвера](http://agilemanifesto.org/iso/sr/manifesto.html){:target="_blank"}, [.pdf](/predavanja/literatura/2001 Beck Manifest Agilnog Razvoja Softvera.pdf){:target="_blank"}
 
