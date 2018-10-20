@@ -22,7 +22,7 @@
 
   * Blakenship et al.: [Pro Agile .NET Development with Scrum](https://www.apress.com/us/book/9781430235330){:target="_blank"} - Apress, 2011.
 
-  * Blackman B. et al.: [Managing Agile Software Projects with Visual Studio Online](https://blogs.msdn.microsoft.com/microsoft_press/2015/04/09/free-ebook-managing-agile-open-source-software-projects-with-microsoft-visual-studio-online/){:target="_blank"} - Microsoft Press, 2015, [.pdf](/predavanja/literatura/Blackman - Managing Agile Software Projects with Visual Studio Online.pdf){:target="_blank"}
+  * Blackman B. et al.: [Managing Agile Software Projects with Visual Studio Online](https://blogs.msdn.microsoft.com/microsoft_press/2015/04/09/free-ebook-managing-agile-open-source-software-projects-with-microsoft-visual-studio-online/){:target="_blank"} - Microsoft Press, 2015, [.pdf](/predavanja/literatura/Blackman B. et al. - Managing Agile Software Projects with Visual Studio Online.pdf){:target="_blank"}
 
   * Guckenheimer S.: [Agile Software Engineering with Visual Studio, 2nd Edition](http://www.pearson.com.au/products/D-G-Guckenheimer-Sam-Loje-Neno/Agile-Software-Engineering-with-Visual-Studio-From-Concept-to-Continuous-Feedback-eBook/9780321675576?R=9780321675576){:target="_blank"} - Addison-Wesley, 2012.
 
@@ -36,7 +36,7 @@
 
   * [Agile Tutorial](https://www.tutorialspoint.com/agile/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Agile.pdf){:target="_blank"}
 
-  * Schwaber K, Sutherland J.: [Scrum Guide](https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf), 2017, [.pdf](/predavanja/literatura/Scrum team - Scrum Guide.pdf){:target="_blank"}
+  * Schwaber K, Sutherland J.: [Scrum Guide](https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf), 2017, [.pdf](/predavanja/literatura/Schwaber K, Sutherland J. - Scrum Guide.pdf){:target="_blank"}
 
   * [Continous Integration Tutorial](https://www.tutorialspoint.com/continuous_integration/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Continous Integration.pdf){:target="_blank"}
 
@@ -46,15 +46,15 @@
 
   * Evans E.: [Domain-Driven Design - Tackling Complexity in the Heart of Software](http://dddcommunity.org/book/evans_2003/){:target="_blank"} - Addison-Wesley, 2003.
 
-  * Avram A.: [Domain Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly){:target="_blank"} - InfoQ, 2006, [.pdf](/predavanja/literatura/Avram A. - Domain Driven Design Quickly.pdf){:target="_blank"}
+  * Avram A, Marinescu F.: [Domain Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly){:target="_blank"} - InfoQ, 2006, [.pdf](/predavanja/literatura/Avram A, Marinescu F. - Domain Driven Design Quickly.pdf){:target="_blank"}
 
   * Shalloway A.: [Design Patterns Explained - A New Perspective On Object Oriented Design](https://www.pearson.com/us/higher-education/program/Shalloway-Design-Patterns-Explained-A-New-Perspective-on-Object-Oriented-Design-2nd-Edition/PGM213720.html){:target="_blank"} - Addison-Wesley, 2005.
 
-  * Webber - REST in Practice
+  * Webber J. et al.: [REST in Practice](http://shop.oreilly.com/product/9780596805838.do){:target="_blank"} - O'Reilly Media, 2010.
 
-  * Hohmann - Beyond Software Architecture
+  * Hohmann L.: [Beyond Software Architecture](https://martinfowler.com/books/hohmann.html){:target="_blank"} - Addison-Wesley, 2003.
 
-  * InfoQ eMag - Architectures you have always wondered about
+  * [Architectures you have always wondered about](https://www.infoq.com/minibooks/emag-microservice-architectures){:target="_blank"} - InfoQ eMag, 2016, [.pdf](/predavanja/literatura/InfoQ eMag - Architectures you have always wondered about.pdf){:target="_blank"}
 
   * [Software Architecture and Design Tutorial](https://www.tutorialspoint.com/software_architecture_design/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Architecture and Designn.pdf){:target="_blank"}
 

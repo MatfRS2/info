@@ -7,7 +7,9 @@
 
 ## Структура веб презентације
 
-* **[Предавања](/predavanja/info/R390_-_Razvoj_softvera_2.pdf)**
+* **[Информације о курсу](/predavanja/info/R390_-_Razvoj_softvera_2.pdf)**
+
+* **[Предавања](/predavanja/README.md)**
 
 * **[Вежбе](/vezbe/README.md)**
 
