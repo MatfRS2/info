@@ -24,7 +24,7 @@
 
   * Blackman B. et al.: [Managing Agile Software Projects with Visual Studio Online](https://blogs.msdn.microsoft.com/microsoft_press/2015/04/09/free-ebook-managing-agile-open-source-software-projects-with-microsoft-visual-studio-online/){:target="_blank"} - Microsoft Press, 2015, [.pdf](/predavanja/literatura/Blackman - Managing Agile Software Projects with Visual Studio Online.pdf){:target="_blank"}
 
-  * Guckenheimer S.: [Agile Software Engineering with Visual Studio, 2nd Edition](http://www.pearson.com.au/products/D-G-Guckenheimer-Sam-Loje-Neno/Agile-Software-Engineering-with-Visual-Studio-From-Concept-to-Continuous-Feedback-eBook/9780321675576?R=9780321675576){:target="_blank"} - Addison Weasly, 2012.
+  * Guckenheimer S.: [Agile Software Engineering with Visual Studio, 2nd Edition](http://www.pearson.com.au/products/D-G-Guckenheimer-Sam-Loje-Neno/Agile-Software-Engineering-with-Visual-Studio-From-Concept-to-Continuous-Feedback-eBook/9780321675576?R=9780321675576){:target="_blank"} - Addison-Wesley, 2012.
 
   * Hundhausen R.: [Professional Scrum Development with Microsoft Visual Studio 2012](https://www.pearson.com/us/higher-education/program/Hundhausen-Professional-Scrum-Development-with-Microsoft-Visual-Studio-2012/PGM173629.html){:target="_blank"} - Microsoft Press, 2012.
 
@@ -44,11 +44,11 @@
 
 * Књиге, чланци и упутства за **архитектуру и дизајн** софтверских система
 
-  * Evans - Domain-Driven Design - Tackling Complexity in the Heart of Software
+  * Evans E.: [Domain-Driven Design - Tackling Complexity in the Heart of Software](http://dddcommunity.org/book/evans_2003/){:target="_blank"} - Addison-Wesley, 2003.
 
-  * Evans - Domain Driven Design Quickly
+  * Avram A.: [Domain Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly){:target="_blank"} - InfoQ, 2006, [.pdf](/predavanja/literatura/Avram A. - Domain Driven Design Quickly.pdf){:target="_blank"}
 
-  * Shalloway - Design Patterns Explained - A New Perspective On Object Oriented Design
+  * Shalloway A.: [Design Patterns Explained - A New Perspective On Object Oriented Design](https://www.pearson.com/us/higher-education/program/Shalloway-Design-Patterns-Explained-A-New-Perspective-on-Object-Oriented-Design-2nd-Edition/PGM213720.html){:target="_blank"} - Addison-Wesley, 2005.
 
   * Webber - REST in Practice
 
