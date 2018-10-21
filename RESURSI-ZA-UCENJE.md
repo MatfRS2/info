@@ -58,17 +58,17 @@
 
   * [Software Architecture and Design Tutorial](https://www.tutorialspoint.com/software_architecture_design/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Architecture and Designn.pdf){:target="_blank"}
 
-  * Green R. - How To Write Unmaintainable Code
+  * Green R.: [How To Write Unmaintainable Code](https://www.doc.ic.ac.uk/~susan/475/unmain.html){:target="_blank"} - Whitepaper, [.pdf](/predavanja/literatura/Green R. - How To Write Unmaintainable Code.pdf){:target="_blank"}
 
 * Књиге, чланци и упутства за **микросервисе**
 
-  * Newman - Building Microservices
+  * Newman S.: [Building Microservices](https://samnewman.io/books/building_microservices/){:target="_blank"} - O'Reilly, 2015, [.pdf издање пред штампу](/predavanja/literatura/Newman S. - Building Microservices.pdf){:target="_blank"}
 
-  * Yanaga - Migrating to Microservices Databases
+  * Yanaga Е.: [Migrating to Microservices Databases](https://www.oreilly.com/programming/free/migrating-to-microservice-databases.csp){:target="_blank"} - O'Reilly, 2016, [.pdf издање пред штампу](/predavanja/literatura/Yanaga E. - Migrating to Microservices Databases.pdf){:target="_blank"}
 
-  * InfoQ eMag - Microservices vs. Monoliths
+  * [Microservices vs. Monoliths](https://www.infoq.com/minibooks/emag-microservices-monoliths){:target="_blank"} - InfoQ eMag, 2017, [.pdf](/predavanja/literatura/InfoQ eMag - Microservices vs. Monoliths.pdf){:target="_blank"}
 
-  * RedHat team - Migrating to Microservices Databases
+  * Ibrayim B.: - Migrating to Microservices Databases
 
   * InfoQ eMag - Microservices patterns
 
