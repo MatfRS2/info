@@ -90,7 +90,7 @@
 
 * Књиге, чланци и упутства за **.NET Core архитектуре и микросервисе**
 
-  * De la Torrre C.: [.NET Technology Guide for Business Applications](https://blogs.msdn.microsoft.com/microsoft_press/2013/11/13/free-ebook-net-technology-guide-for-business-applications/){:target="_blank"} - Microsoft Press, 2013, [.pdf](/predavanja/literatura/De la Torrre C. - NET Technology Guide for Business Applications.pdf){:target="_blank"}
+  * De la Torrre C, Carmona D.: [.NET Technology Guide for Business Applications](https://blogs.msdn.microsoft.com/microsoft_press/2013/11/13/free-ebook-net-technology-guide-for-business-applications/){:target="_blank"} - Microsoft Press, 2013, [.pdf](/predavanja/literatura/De la Torrre C, Carmona D. - NET Technology Guide for Business Applications.pdf){:target="_blank"}
 
   * De la Torre C.: [Modernize Existing .NET applications with Azure cloud and Windows Containers](https://docs.microsoft.com/en-us/dotnet/standard/modernize-with-azure-and-containers/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/De la Torre C. - Modernize Existing .NET applications with Azure cloud and Windows Containers.pdf){:target="_blank"}
 
