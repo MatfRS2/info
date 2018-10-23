@@ -4,14 +4,24 @@
 
 План и програм курса [Развој софтвера 2](/predavanja/info/R390_-_Razvoj_softvera_2.pdf){:target="_blank"}  
 
-## Структура веб презентације
+## Информације о курсу
 
-* **[Информације о курсу](/predavanja/info/README.md)**
+* **[Основне Информације](/informacije/README.md)**
+
+* **[Инсталације](/INSTALACIJE.md)**
+
+* **[Ресурси за учење](/RESURSI-ZA-UCENJE.md)**
+
+## Активности
 
 * **[Предавања](/predavanja/README.md)**
 
 * **[Вежбе](/vezbe/README.md)**
 
-* **[Инсталације](/INSTALACIJE.md)**
+* **[Семинарски радови](/seminarski-radovi/README.md)**
 
-* **[Ресурси за учење](/RESURSI-ZA-UCENJE.md)**
+## Оцењивање
+
+* **[Писмени испити](/pismeni-ispiti/README.md)**
+
+* **[Усмени испити](/usmeni-ispiti/README.md)**
