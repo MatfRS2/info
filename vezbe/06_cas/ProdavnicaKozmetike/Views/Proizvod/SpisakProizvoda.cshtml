@@ -1,0 +1,10 @@
+@model SpisakProizvodaViewModel
+
+@foreach (Proizvod p in Model.Proizvodi){
+    @Html.Partial("ProizvodIspis", p)
+}
+
+<div model-strane="@Model.ModelStrane" page-action="SpisakProizvoda" page-class="btn" 
+ page-class-normalno="btn-outline-primary" page-class-selektovano="btn-primary" class="btn-group"></div>
+
+
