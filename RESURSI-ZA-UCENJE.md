@@ -58,29 +58,25 @@
 
   * [Software Architecture and Design Tutorial](https://www.tutorialspoint.com/software_architecture_design/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Architecture and Designn.pdf){:target="_blank"}
 
-  * Green R. - How To Write Unmaintainable Code
+  * Green R.: [How To Write Unmaintainable Code](https://www.doc.ic.ac.uk/~susan/475/unmain.html){:target="_blank"} - Whitepaper, [.pdf](/predavanja/literatura/Green R. - How To Write Unmaintainable Code.pdf){:target="_blank"}
 
 * Књиге, чланци и упутства за **микросервисе**
 
-  * Newman - Building Microservices
+  * Newman S.: [Building Microservices](https://samnewman.io/books/building_microservices/){:target="_blank"} - O'Reilly, 2015, [.pdf издање пред штампу](/predavanja/literatura/Newman S. - Building Microservices.pdf){:target="_blank"}
 
-  * Yanaga - Migrating to Microservices Databases
+  * Yanaga Е.: [Migrating to Microservices Databases](https://www.oreilly.com/programming/free/migrating-to-microservice-databases.csp){:target="_blank"} - O'Reilly, 2016, [.pdf издање пред штампу](/predavanja/literatura/Yanaga E. - Migrating to Microservices Databases.pdf){:target="_blank"}
 
-  * InfoQ eMag - Microservices vs. Monoliths
+  * [Microservices vs. Monoliths](https://www.infoq.com/minibooks/emag-microservices-monoliths){:target="_blank"} - InfoQ eMag, 2017, [.pdf](/predavanja/literatura/InfoQ eMag - Microservices vs. Monoliths.pdf){:target="_blank"}
 
-  * RedHat team - Migrating to Microservices Databases
+  * [Microservices - Patterns and Practices](https://www.infoq.com/minibooks/microservices-patterns-practices) - InfoQ eMag, 2018, [.pdf](/predavanja/literatura/InfoQ eMag - Microservices - Patterns and Practices.pdf){:target="_blank"}
 
-  * InfoQ eMag - Microservices patterns
+  * [Observability](https://www.infoq.com/minibooks/emag-apm-observability)- InfoQ eMag, 2018, [.pdf](/predavanja/literatura/InfoQ eMag - Observability.pdf){:target="_blank"}
 
-  * RedHat team - Scalable Microservices through Messaging
-
-  * InfoQ eMag - Observability
-
-  * Hausenblas - Container Networking from Docker to Kubernetes
+  * Hausenblas M.: [Container Networking from Docker to Kubernetes](http://mhausenblas.info/){:target="_blank"} - O'Reilly, 2018, [.pdf](/predavanja/literatura/Hausenblas M. - Container Networking from Docker to Kubernetes.pdf){:target="_blank"}
 
 * Књиге, чланци и упутства за **компоненте .NET Core** екосистема
 
-  * Nagel C. - Professional C# 6 and .NET Core 1.0
+  * Nagel C.: [Professional C# 6 and .NET Core 1.0](http://www.wrox.com/WileyCDA/WroxTitle/Professional-C-6-and-NET-Core-1-0.productCd-111909660X.html) - Wrox, 2016.
 
   * Bangall B. et al.: [C# for Java Programmers](https://www.sciencedirect.com/book/9781931836548/c-for-java-programmers#book-info){:target="_blank"} - Science Direct 2002.
 
@@ -94,23 +90,19 @@
 
 * Књиге, чланци и упутства за **.NET Core архитектуре и микросервисе**
 
-  * De la Torrre C.: [.NET Technology Guide for Business Applications](https://blogs.msdn.microsoft.com/microsoft_press/2013/11/13/free-ebook-net-technology-guide-for-business-applications/){:target="_blank"} - Microsoft Press, 2013, [.pdf](/predavanja/literatura/De la Torrre - NET Technology Guide for Business Applications.pdf){:target="_blank"}
+  * De la Torrre C, Carmona D.: [.NET Technology Guide for Business Applications](https://blogs.msdn.microsoft.com/microsoft_press/2013/11/13/free-ebook-net-technology-guide-for-business-applications/){:target="_blank"} - Microsoft Press, 2013, [.pdf](/predavanja/literatura/De la Torrre C, Carmona D. - NET Technology Guide for Business Applications.pdf){:target="_blank"}
 
-  * De la Torre - Architecting Modern Web Applications with ASP.NET Core and Azure, 2nd Edition
+  * De la Torre C.: [Modernize Existing .NET applications with Azure cloud and Windows Containers](https://docs.microsoft.com/en-us/dotnet/standard/modernize-with-azure-and-containers/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/De la Torre C. - Modernize Existing .NET applications with Azure cloud and Windows Containers.pdf){:target="_blank"}
 
-  * De la Torre - Modernize Existing .NET applications with Azure cloud and Windows Containers
+  * Smith S.: [Architecting Modern Web Applications with ASP.NET Core and Azure, 2nd Edition](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/Smith S. - Architecting Modern Web Applications with ASP.NET Core and Azure, 2nd Edition.pdf){:target="_blank"}
 
-  * Smith - Architecting Modern Web Applications with ASP.NET Core and Azure, 2nd Edition
+  * De la Torre C. et al.: [.NET Microservices. Architecture for Containerized .NET Applications, 2nd Edition](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/De la Torre C. et al. - .NET Microservices. Architecture for Containerized .NET Applications, 2nd Edition.pdf){:target="_blank"}
 
-  * De la Torre - Containerized Docker Application Lifecycle with Microsoft Platform and Tools
+  * De la Torre C.: [Containerized Docker Application Lifecycle with Microsoft Platform and Tools](https://blogs.msdn.microsoft.com/microsoft_press/2016/12/07/free-ebook-containerized-docker-applications-lifecycle-with-microsoft-tools-and-platform/){:target="_blank"} - Microsoft Press, 2016, [.pdf](/predavanja/literatura/De la Torre C. - Containerized Docker Application Lifecycle with Microsoft Platform and Tools.pdf){:target="_blank"}
 
 * Књиге, чланци и упутства за СУБП **Microsoft SQL Server**
 
-  * Varga - Introducing Microsoft SQL Server 2016
-
-  * Ben-Gan - Microsoft SQL Server 2012 T-SQL Fundamentals
-
-  * Brimhall et al. - SQL Server 2012 T-SQL Recipes, 3rd Edition
+  * Varga S. et al.: [Introducing Microsoft SQL Server 2016](https://blogs.msdn.microsoft.com/microsoft_press/2016/02/02/free-ebook-introducing-microsoft-sql-server-2016-mission-critical-applications-deeper-insights-hyperscale-cloud-preview-2/){:target="_blank"} - Microsoft Press, 2016, [.pdf](/predavanja/literatura/Varga S. et al. - Introducing Microsoft SQL Server.pdf){:target="_blank"}
 
   * Davis T.: [SQL Server Transaction Log Management](https://www.red-gate.com/simple-talk/books/sql-books/sql-server-transaction-log-management-by-tony-davis-and-gail-shaw/){:target="_blank"} - Simple Talk Publishing, 2012, [.pdf](/predavanja/literatura/Davis - SQL Server Transaction Log Management.pdf){:target="_blank"}
 
