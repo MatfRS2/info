@@ -1,0 +1,54 @@
+@model IEnumerable<Porudzbina>
+
+@{
+    ViewBag.Naslov = "Porudzbine";
+    Layout = "_AdminLayout";
+}
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Ime</th>
+                <th>Zip</th>
+                <th colspan="2">Detalji</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+               <tr>
+                   <td>@p.Ime</td>
+                   <td>@p.PostanskiBroj</td>
+                   <th>Proizvod</th>
+                   <th>Količina</th>
+                   <th>
+                       <form asp-action="OznaciKaoPoslato" method="POST">
+                           <input type="hidden"  name="porudzbinaID" value="@p.PorudzbinaID" />
+                           <button class="btn btn-warning" type="submit">
+                               Pošalji
+                           </button>
+                       </form>
+                   </th>
+                </tr>
+                   @foreach (var korpaElement in p.listaProizvodaUKorpi)
+                   {
+                      <tr>
+                      <td colspan="2"> </td> 
+                      <td>@korpaElement.Proizvod.Ime</td>
+                      <td>@korpaElement.Kolicina</td>
+                      </tr>
+                   }
+               
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="text-center">Nema neposlatih porudzbina!</div>
+}
+
+
