@@ -4,7 +4,7 @@
 
 Овде су постављене везе према ресурсима за учење на вебу, који могу помоћи при учењу садржаја који се обрађују на курсу **Развој софтвера 2**.
 
-* Књиге, чланци и упутства за **Софтверско инжењерство** и управљање пројектима  
+1. Књиге, чланци и упутства за **Софтверско инжењерство** и управљање пројектима  
 
   * Sommerville I.: [Sofware Enginnering, 10. edition](https://iansommerville.com/software-engineering-book/){:target="_blank"} - Pearson, 2016.
 
@@ -18,7 +18,7 @@
 
   * [Software Engineering Tutorial](https://www.tutorialspoint.com/software_engineering/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Engineering.pdf){:target="_blank"}
 
-* Књиге, чланци и упутства за **Агилну методологију** развоја софтвера  
+1. Књиге, чланци и упутства за **Агилну методологију** развоја софтвера  
 
   * Blakenship et al.: [Pro Agile .NET Development with Scrum](https://www.apress.com/us/book/9781430235330){:target="_blank"} - Apress, 2011.
 
@@ -42,7 +42,7 @@
 
   * [Software Testing Tutorial](https://www.tutorialspoint.com/software_testing/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Testing.pdf){:target="_blank"}
 
-* Књиге, чланци и упутства за **архитектуру и дизајн** софтверских система
+1. Књиге, чланци и упутства за **архитектуру и дизајн** софтверских система
 
   * Evans E.: [Domain-Driven Design - Tackling Complexity in the Heart of Software](http://dddcommunity.org/book/evans_2003/){:target="_blank"} - Addison-Wesley, 2003.
 
@@ -60,7 +60,7 @@
 
   * Green R.: [How To Write Unmaintainable Code](https://www.doc.ic.ac.uk/~susan/475/unmain.html){:target="_blank"} - Whitepaper, [.pdf](/predavanja/literatura/Green R. - How To Write Unmaintainable Code.pdf){:target="_blank"}
 
-* Књиге, чланци и упутства за **микросервисе**
+1. Књиге, чланци и упутства за **микросервисе**
 
   * Newman S.: [Building Microservices](https://samnewman.io/books/building_microservices/){:target="_blank"} - O'Reilly, 2015, [.pdf издање пред штампу](/predavanja/literatura/Newman S. - Building Microservices.pdf){:target="_blank"}
 
@@ -74,7 +74,7 @@
 
   * Hausenblas M.: [Container Networking from Docker to Kubernetes](http://mhausenblas.info/){:target="_blank"} - O'Reilly, 2018, [.pdf](/predavanja/literatura/Hausenblas M. - Container Networking from Docker to Kubernetes.pdf){:target="_blank"}
 
-* Књиге, чланци и упутства за **компоненте .NET Core** екосистема
+1. Књиге, чланци и упутства за **компоненте .NET Core** екосистема
 
   * Nagel C.: [Professional C# 6 and .NET Core 1.0](http://www.wrox.com/WileyCDA/WroxTitle/Professional-C-6-and-NET-Core-1-0.productCd-111909660X.html) - Wrox, 2016.
 
@@ -88,7 +88,7 @@
 
   * [Linq Tutorial](http://www.tutorialspoint.com/linq/){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Linq.pdf){:target="_blank"}
 
-* Књиге, чланци и упутства за **.NET Core архитектуре и микросервисе**
+1. Књиге, чланци и упутства за **.NET Core архитектуре и микросервисе**
 
   * De la Torrre C, Carmona D.: [.NET Technology Guide for Business Applications](https://blogs.msdn.microsoft.com/microsoft_press/2013/11/13/free-ebook-net-technology-guide-for-business-applications/){:target="_blank"} - Microsoft Press, 2013, [.pdf](/predavanja/literatura/De la Torrre C, Carmona D. - NET Technology Guide for Business Applications.pdf){:target="_blank"}
 
@@ -100,7 +100,7 @@
 
   * De la Torre C.: [Containerized Docker Application Lifecycle with Microsoft Platform and Tools](https://blogs.msdn.microsoft.com/microsoft_press/2016/12/07/free-ebook-containerized-docker-applications-lifecycle-with-microsoft-tools-and-platform/){:target="_blank"} - Microsoft Press, 2016, [.pdf](/predavanja/literatura/De la Torre C. - Containerized Docker Application Lifecycle with Microsoft Platform and Tools.pdf){:target="_blank"}
 
-* Књиге, чланци и упутства за СУБП **Microsoft SQL Server**
+1. Књиге, чланци и упутства за СУБП **Microsoft SQL Server**
 
   * Varga S. et al.: [Introducing Microsoft SQL Server 2016](https://blogs.msdn.microsoft.com/microsoft_press/2016/02/02/free-ebook-introducing-microsoft-sql-server-2016-mission-critical-applications-deeper-insights-hyperscale-cloud-preview-2/){:target="_blank"} - Microsoft Press, 2016, [.pdf](/predavanja/literatura/Varga S. et al. - Introducing Microsoft SQL Server.pdf){:target="_blank"}
 
