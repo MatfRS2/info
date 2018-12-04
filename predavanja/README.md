@@ -170,4 +170,10 @@
 
    1. Карактеристике разматраних решења
 
+   - [Примери из књиге "Architecting Modern Web Applications with ASP.NET Core and Azure"](https://github.com/MatfRS2/eShopOnWeb){:target="_blank"}
+
+   - [Примери из књиге "Modernize Existing .NET applications with Azure cloud and Windows Containers"](https://github.com/MatfRS2/eShopModernizing){:target="_blank"}
+
+   - [Примери из књиге ".NET Microservices Architecture for Containerized .NET Applications"](https://github.com/MatfRS2/eShopOnContainers){:target="_blank"}
+
 [РС 2](../README.md)
