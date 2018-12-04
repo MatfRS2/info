@@ -1,6 +1,6 @@
-# Развој софтвера 2 - Ресурси за учење  
+# Ресурси за учење -- Развој софтвера 2 @ Математички факултет  
 
-[почетна страна](/README.md)
+[РС 2](/README.md)
 
 Овде су постављене везе према ресурсима за учење на вебу, који могу помоћи при учењу садржаја који се обрађују на курсу **Развој софтвера 2**.
 
@@ -106,4 +106,4 @@
 
     * Davis T.: [SQL Server Transaction Log Management](https://www.red-gate.com/simple-talk/books/sql-books/sql-server-transaction-log-management-by-tony-davis-and-gail-shaw/){:target="_blank"} - Simple Talk Publishing, 2012, [.pdf](/predavanja/literatura/Davis - SQL Server Transaction Log Management.pdf){:target="_blank"}
 
-[почетна страна](/README.md)
+[РС 2](/README.md)
