@@ -14,15 +14,15 @@
 
 * **[Ресурси за учење](/RESURSI-ZA-UCENJE.md)**
 
-## Активности
+## Настава
 
 * **[Предавања](/predavanja/README.md)**
 
 * **[Вежбе](/vezbe/README.md)**
 
-* **[Семинарски радови](/seminarski-radovi/README.md)**
+## Семинарски радови и испити
 
-## Оцењивање
+* **[Семинарски радови](/seminarski-radovi/README.md)**
 
 * **[Писмени испити](/pismeni-ispiti/README.md)**
 
