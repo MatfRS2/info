@@ -12,13 +12,23 @@
 * Направити налог на `github`
 * Направити фолдер на локалном рачунару, позиционирати се у фолдер и клонирати репозиторијум наредбом ```git clone https://github.com/MatfRS2/RS2.git```
 
-### Упутства за инсталације
+### Упутства за инсталације 
+
+**Напомена:** Упутства су за оперативни систем Ubuntu 18.04.
 
 * [Visual Studio Code](https://code.visualstudio.com/Download?wt.mc_id=DotNet_Home)
 * [Упутство за SQL Server на Ubuntu оперативном систему](http://www.maxtblog.com/2018/07/installing-ms-sql-server-in-ubuntu-18-04/)
 * [Упутство за .NET SDK](https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial)
-* Код окружења **Visual Stdio Code** инсталирати проширења (Extensions): C#, GitLens, vscode-pdf
-* [Упутство за _Azure Data Studio_](https://azure.microsoft.com/en-us/updates/azure-data-studio-is-now-available/).
+* Код окружења **Visual Stdio Code** инсталирати проширења (Extensions): C#, GitLens, vscode-pdf, Docker, Angular Snipets
+* [Упутство за _Azure Data Studio_](https://azure.microsoft.com/en-us/updates/azure-data-studio-is-now-available/)
+* [Упутство за _Node.js_](https://linuxconfig.org/how-to-install-node-js-on-ubuntu-18-04-bionic-beaver-linux)
+* [Упутство за _Docker_](https://linuxconfig.org/how-to-install-docker-on-ubuntu-18-04-bionic-beaver)
+   Да би радило и за обичног корисника, потребно је променити дозволе:
+   ``` sudo groupadd docker ```
+   ``` sudo usermod -aG docker $USER ```
+   Излоговати се и проверити да ли све ради са командом: ```docker run hello-world```
+* [Упутство за _Docker compose_](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04)
+* Упутство за преузимање потребних _Angular_ пакета: ```npm install --global @angular/cli@1.0.2``` (може се одабрати нека новија верзија)
 
 ## Вежбе
 
