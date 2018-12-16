@@ -74,6 +74,6 @@
 
 ### **IX и X час** -- Креирање _ASP.NET Core_ и _Angular_ апликације
 
-* [Пример](./09_cas/README.md) 
+* [Пример](./09_10_cas/README.md) 
 
 [РС 2](../README.md)
