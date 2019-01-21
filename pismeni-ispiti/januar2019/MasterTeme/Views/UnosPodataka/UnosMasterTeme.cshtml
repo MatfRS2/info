@@ -1,0 +1,75 @@
+@model MasterTemaViewModel
+
+@{
+    Layout = "_AdminLayout";
+}
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success">@TempData["message"]</div>
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-controller="UnosPodataka" asp-action="UnosMasterTeme" method="POST">
+  <div class="form-group">
+    <label>Naziv</label>
+    <input asp-for="Naziv" class="form-control"  />
+    <div><span asp-validation-for="Naziv" class="text-danger"></span></div>
+  </div>
+  <div class="form-group">
+    <label>Indeks studenta</label>
+    <input asp-for="Indeks" class="form-control" />
+    <div><span asp-validation-for="Indeks" class="text-danger"></span></div>
+  </div>
+  <div class="form-group">
+    <label>Mentor</label>
+      <select class="form-control" asp-for="NastavnikId">
+      <option value=""> Izaberite opciju </option>
+      @foreach (var n in Model.Nastavnici)
+      {
+          <option value="@n.NastavnikId">@n.Ime @n.Prezime</option>
+      }
+    </select>
+    <div><span asp-validation-for="NastavnikId" class="text-danger"></span></div>
+  </div>
+  <hr> 
+  <div class="form-group">
+    <label>Komisija</label><br>
+      <label>Prvi član</label>
+      <select class="form-control" asp-for="KomisijaId[0]">
+      <option value=""> Izaberite opciju </option>
+      @foreach (var n in Model.Nastavnici)
+      {
+          <option value="@n.NastavnikId">@n.Ime @n.Prezime</option>
+      }
+      </select>
+
+      <label>Drugi član</label>
+      <select class="form-control" asp-for="KomisijaId[1]">
+      <option value=""> Izaberite opciju </option>
+      @foreach (var n in Model.Nastavnici)
+      {
+          <option value="@n.NastavnikId">@n.Ime @n.Prezime</option>
+      }
+      </select>
+
+      <label>Treći član</label>
+      <select class="form-control" asp-for="KomisijaId[2]">
+      <option value=""> Izaberite opciju </option>
+      @foreach (var n in Model.Nastavnici)
+      {
+          <option value="@n.NastavnikId">@n.Ime @n.Prezime</option>
+      }
+      </select>
+    <div><span asp-validation-for="NastavnikId" class="text-danger"></span></div>
+  </div>
+  <hr>
+  <div class="form-group">
+    <label>Datum odluke NNV</label>
+    <input type="date" value="2017-06-01" asp-for="DatumNNV" class="form-control"  />
+    <div><span asp-validation-for="DatumNNV" class="text-danger"></span></div>
+  </div>
+
+  <button type="submit" class="btn btn-default">Unesi</button>
+</form>

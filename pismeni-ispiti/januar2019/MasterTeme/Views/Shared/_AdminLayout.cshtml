@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Master Teme</title>
+	    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" asp-href-include="/lib/bootstrap/dist/**/*.min.css"
+                           asp-href-exclude="**/*-reboot*,**/*-grid*" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+	    <a class="navbar-brand" href="/">MASTER TEME</a>
+
+        <div class="text-right">
+        <a class="btn btn-info" asp-controller="UnosPodataka" asp-action="UnosStudenta">Uneti Novog Studenta</a>
+        <a class="btn btn-info" asp-controller="UnosPodataka" asp-action="UnosNastavnika">Uneti Novog Nastavnika</a>
+        <a class="btn btn-info" asp-controller="UnosPodataka" asp-action="UnosMasterTeme">Uneti Novu Master Temu</a>
+        </div>  
+	</nav>
+   
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,39 @@
+@model Student
+
+@{
+    Layout = "_AdminLayout";
+}
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success">@TempData["message"]</div>
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-controller="UnosPodataka" asp-action="UnosStudenta" method="POST">
+  <div class="form-group">
+    <label>Ime</label>
+    <input asp-for="Ime" class="form-control"  />
+    <div><span asp-validation-for="Ime" class="text-danger"></span></div>
+  </div>
+  <div class="form-group">
+    <label>Prezime</label>
+    <input asp-for="Prezime" class="form-control" />
+    <div><span asp-validation-for="Prezime" class="text-danger"></span></div>
+  </div>
+  <div class="form-group">
+    <label>Indeks</label>
+    <input asp-for="Indeks" class="form-control" />
+    <div><span asp-validation-for="Indeks" class="text-danger"></span></div>
+  </div>
+  <select class="form-control" asp-for="Smer">
+    <option value=""> Izaberite opciju </option>
+    <option value="I">Informatika</option>
+    <option value="R">Racunarstvo i informatika</option>
+    <option value="V">Verovatnoca i statistika</option>
+    <option value="M">Teorijska matematika</option>
+  </select>
+  <div><span asp-validation-for="Smer" class="text-danger"></span></div>
+  <button type="submit" class="btn btn-default">Unesi</button>
+</form>

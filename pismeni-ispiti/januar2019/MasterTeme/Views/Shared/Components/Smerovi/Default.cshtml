@@ -1,0 +1,13 @@
+@model IEnumerable<string>
+
+<div lass="btn-group-vertical" role="group">
+
+    <a asp-action="Spisak" asp-controller="MasterTeme" asp-route-smer=""
+    class="btn btn-default" style="width: 100%">Početna</a>
+
+    @foreach(string s in @Model)
+    {
+    <a asp-action="Spisak" asp-controller="MasterTeme" asp-route-smer="@s"
+    class="btn btn-default" style="width: 100%">@s</a>
+    }
+</div>    

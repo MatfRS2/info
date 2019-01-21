@@ -1,0 +1,21 @@
+@model IEnumerable<MasterTema>
+
+<form class="form-inline" asp-action="Spisak" asp-controller="MasterTeme" method="POST">
+  <div class="form-group">
+    <select class="form-control" name="opcija">
+		<option value=""> Izaberite opciju </option>
+		<option value="mentor">Ime ili prezime mentora</option>
+		<option value="student">Ime ili prezime studenta</option>
+    </select>
+    <input class="form-control" placeholder="kljucna rec" name="kljucnarec"  />
+  	<button type="submit" class="btn btn-default">Pretraga</button>
+  </div>
+</form>
+
+<div asp-validation-summary="All"></div>
+
+<br><br><br><br>
+
+@foreach (MasterTema p in Model){
+ 	   @Html.Partial("TemeIspis", p)
+}

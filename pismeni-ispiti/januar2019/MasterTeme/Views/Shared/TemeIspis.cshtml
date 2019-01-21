@@ -1,0 +1,33 @@
+@model MasterTema
+
+@{
+    var i=0;
+    var count = Model.Komisija.Count();
+}
+
+<div class="panel panel-success" style="width:80%;">
+    <div class="panel-heading">
+        <h3 class="panel-title">@Model.Naziv</h3>
+    </div>
+    <div class="panel-body">
+        <h4><b>@Model.Student.Ime @Model.Student.Prezime</b>, @Model.Student.Indeks, <b>@Model.Student.Smer</b> smer</h4><br>
+        <b>mentor:</b> @Model.Mentor.Ime @Model.Mentor.Prezime <br>
+        <b>članovi komisije:</b>
+        @foreach (var p in Model.Komisija)
+        {
+            if(++i==count)
+            {
+                <span>@p.Nastavnik.Ime</span>
+                <span>@p.Nastavnik.Prezime</span>
+            }
+            else
+            {
+               <span>@p.Nastavnik.Ime</span>
+               <span>@p.Nastavnik.Prezime,</span> 
+            }
+            
+        }
+        <br>
+        <b>datum odluke NNV:</b> @Model.DatumNNV.ToString("d")
+    </div>
+</div>
