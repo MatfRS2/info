@@ -1,0 +1,30 @@
+@model KontrolerViewModel
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success">@TempData["message"]</div>
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-controller="UnosPodataka" asp-action="DodajRadnoVreme" method="POST">
+  <input type="hidden" asp-for="KontorlerId" value="@Model.KontorlerId">
+
+  <div class="form-group">
+    <label>Radna Stanica</label>
+    <select class="form-control" asp-for="RadnaStanicaId">
+      <option value=""> Izaberite opciju </option>
+      @foreach (var r in Model.RadneStanice)
+      {
+          <option value="@r.RadnaStanicaId">@r.Naziv</option>
+      }
+      </select>
+    <div><span asp-validation-for="RadnaStanicaId" class="text-danger"></span></div>
+  </div>
+  <div class="form-group">
+    <label>Datum</label>
+    <input type="date" value="2017-06-01" asp-for="DateTime" class="form-control" />
+    <div><span asp-validation-for="DateTime" class="text-danger"></span></div>
+  </div>
+  <button type="submit" class="btn btn-default">Unesi</button>
+</form>

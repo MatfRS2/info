@@ -1,0 +1,43 @@
+@model IEnumerable<Kontroler>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-10">
+            <table class="table table-striped table-bordered ">
+                <thead>
+                    <tr>
+                        <th>Ime</th>
+                        <th>Prezime</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Kontroler k in Model){
+                        <tr>
+                            <td>@k.Ime</td>
+                            <td>@k.Prezime</td>
+                            <td>
+                                    <a class="btn btn-info btn-sm" asp-action="Informacije"
+                                    asp-route-kontrolorId="@k.KontrolerId">Informacije</a>
+
+                                    <a class="btn btn-success btn-sm" asp-action="DodajRadnoVreme"
+                                    asp-route-kontrolorId="@k.KontrolerId" asp-controller="UnosPodataka">
+                                    Dodaj radno vreme</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-2">
+            <a class="btn btn-success btn-sm" asp-controller="UnosPodataka" asp-action="UnosKontrolera">
+                Dodaj novog radnika</a><br><br>
+
+            <form asp-action="Spisak" method="POST">
+                <input input type="date" value="2017-06-01" name="datum"/>
+                <button class="btn btn-success btn-sm" type="submit">Spisak</button>
+            </form>
+        </div>
+    </div>
+</div>
+
