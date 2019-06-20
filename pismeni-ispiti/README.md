@@ -14,4 +14,8 @@
 * [Задаци](./januar2019/januar2019.pdf)
 * [Решење](./januar2019/MasterTeme/README.md)
 
+---
+
+* [Информације](./info/README.md)
+
 [РС 2](../README.md)
