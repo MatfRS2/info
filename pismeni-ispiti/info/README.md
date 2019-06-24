@@ -4,9 +4,9 @@
 
 ---
 
-** [Резултати писменог испита у року фрбруар 2019.](./Rezultati februar2019.pdf){:target="_blank"}
+** [Резултати писменог испита у року фрбруар 2019.](./Rezultati.februar2019.pdf){:target="_blank"}
 
-** [Резултати писменог испита у року јануар 2019.](./Rezultati januar2019.pdf){:target="_blank"}
+** [Резултати писменог испита у року јануар 2019.](./Rezultati.januar2019.pdf){:target="_blank"}
 
 ---
 
