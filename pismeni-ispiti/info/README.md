@@ -3,6 +3,7 @@
 [РС 2](../../README.md) [Писмени испити](../README.md)
 
 ---
+** [Резултати писменог испита у року септембар 2019.](./Rezultati.septembar2019.pdf){:target="_blank"}
 
 ** [Резултати писменог испита у року јун 2019.](./Rezultati.jun2019.pdf){:target="_blank"}
 
