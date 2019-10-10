@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEF", "HelloConsoleEF\HelloConsoleEF.csproj", "{E1A5481A-845B-4862-B63E-F02D79A838F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsole", "HelloConsole\HelloConsole.csproj", "{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWeb", "HelloWeb\HelloWeb.csproj", "{DF3E7A30-AA10-42BB-A759-5EAC2ED8235C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebMvcAdo", "HelloWebMvcAdo\HelloWebMvcAdo.csproj", "{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebMvc", "HelloWebMvc\HelloWebMvc.csproj", "{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebMvcEF", "HelloWebMvcEF\HelloWebMvcEF.csproj", "{B09FF4AA-63B0-4946-A561-4BFC90368117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1A5481A-845B-4862-B63E-F02D79A838F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A5481A-845B-4862-B63E-F02D79A838F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A5481A-845B-4862-B63E-F02D79A838F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A5481A-845B-4862-B63E-F02D79A838F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3E7A30-AA10-42BB-A759-5EAC2ED8235C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3E7A30-AA10-42BB-A759-5EAC2ED8235C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3E7A30-AA10-42BB-A759-5EAC2ED8235C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3E7A30-AA10-42BB-A759-5EAC2ED8235C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE9D1C3-8DA5-4C62-99FD-3D76416C2685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDA16AC-35E3-4A6A-A9AD-8C6A682D425E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09FF4AA-63B0-4946-A561-4BFC90368117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09FF4AA-63B0-4946-A561-4BFC90368117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09FF4AA-63B0-4946-A561-4BFC90368117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09FF4AA-63B0-4946-A561-4BFC90368117}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B7CED3A-6F40-4B0C-919E-23BB8CEA35F2}
+	EndGlobalSection
+EndGlobal
