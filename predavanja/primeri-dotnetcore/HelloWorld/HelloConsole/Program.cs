@@ -8,7 +8,7 @@ namespace HelloConsole
         static void Main(string[] args)
         {
             int i = 0;
-            while (i < 10)
+            while (i < 13)
             {
                 Console.WriteLine(i);
                 i++;
