@@ -111,6 +111,7 @@ a database._
 `dotnet ef database update`
 
 Нешто више речи о миграцијама (из уџбеника):
+
 || |
 | ------------------ |-------------------------------------------- |
 |What are they?      |Migrations are groups of commands that prepare databases for use with Entity Framework Core applications. They are used to create the database                     and then keep it synchronized with changes in the data model.|
@@ -118,6 +119,7 @@ a database._
 |How are they used?  |Migrations are created and applied using the _dotnet ef command-line tools_.|
 
 Наредбе које се односе на миграције и EF Core (из уџбеника):
+
 |Ефекат      | Наредба |
 | ------------------ |-------------------------------------------- |
 |Create a new migration                                 | `dotnet ef migration add ime` |
