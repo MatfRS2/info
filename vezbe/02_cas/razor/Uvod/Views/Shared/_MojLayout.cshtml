@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @*ViewBag omogucava da se razlicite vrednosti prenose kroz aplikaciju
+          (u ovom slucaju prenosimo Title izmedju View strane (Pogleda) i Layout strane).
+        Vise o ViewBag: https://www.tutorialsteacher.com/mvc/viewbag-in-asp.net-mvc
+        Vazno: traje tokom jednog http zahteva, nakon redirekcije sve vrednosti su 0.*@
+    <title>@ViewBag.Naslov</title>
+
+    <style>
+        #mainDiv {
+            padding: 20px;
+            border: solid medium black;
+            font-size: 20pt
+        }
+    </style>
+</head>
+<body>
+    <h1>Informacije o proizvodu</h1>
+    <div id="mainDiv">
+        @*RenderBody umece sadrzaj Pogleda (View) u Layout na mestu na kom je pozvan*@
+        @RenderBody()
+    </div>
+</body>
+</html>

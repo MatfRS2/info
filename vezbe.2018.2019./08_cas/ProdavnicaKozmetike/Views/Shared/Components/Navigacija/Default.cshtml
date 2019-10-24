@@ -1,0 +1,12 @@
+@model IEnumerable<string>
+
+<a asp-action="SpisakProizvoda" asp-controller="Proizvod" asp-route-kategorija=""
+ class="btn btn-outline-info btn-block" style="width: 70%">Početna</a>
+
+@foreach(string s in @Model)
+{
+    <a asp-action="SpisakProizvoda" asp-controller="Proizvod" asp-route-kategorija="@s"
+     asp-route-brojStraneProizvoda="1"
+    class="btn btn-block 
+    @(s == ViewBag.TrenutnaKategorija ? "btn-info" : "btn-outline-info")" style="width: 70%">@s</a>
+}

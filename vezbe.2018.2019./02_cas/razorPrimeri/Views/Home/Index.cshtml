@@ -1,0 +1,28 @@
+@model Proizvodi
+
+@{
+    ViewBag.Naslov = "Index";
+}
+
+<p> Ime proizvoda: @Model.Ime </p>
+@* 2. 
+
+<p> Na Lageru: @ViewBag.naLageru </p> *@
+
+@* 3. uslovni izrazi 
+   da nije korisceno <i>, moralo bi se staviti @: kao sto je u drugom else *@
+<p>
+    @if (ViewBag.naLageru == 0)
+    {
+        <i>Nema na lageru.</i> 
+    }
+    else if (ViewBag.naLageru <= 2)
+    {
+        <i> Niske zalihe: (@ViewBag.naLageru) </i> 
+    }
+    else
+    {
+        @:@ViewBag.naLageru na lageru
+    }
+
+</p>

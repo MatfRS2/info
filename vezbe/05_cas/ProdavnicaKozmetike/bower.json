@@ -1,8 +1,0 @@
-
-{
-    "name": "prodavnicakozmetike",
-    "private": true,
-    "dependencies": {
-      "bootstrap" : "latest"
-    }
-  }

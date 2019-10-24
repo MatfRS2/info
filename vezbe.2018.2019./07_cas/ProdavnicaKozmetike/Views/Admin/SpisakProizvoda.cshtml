@@ -1,0 +1,42 @@
+@model IEnumerable<Proizvod>
+
+@{
+    ViewBag.Naslov = "Spisak Proizvoda";
+    Layout = "_AdminLayout";
+}    
+
+<table class="table table-striped table-bordered ">
+    <thead>
+        <tr>
+            <th>Ime</th>
+            <th>Opis</th>
+            <th>Kategorija</th>
+            <th>Cena</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Proizvod p in Model)
+        {
+            <tr>
+                <td>@p.Ime</td>
+                <td>@p.Opis</td>
+                <td>@p.Kategorija</td>
+                <td>@p.Cena.ToString("c", Cultures.Srbija)</td>
+                <td>
+                    <form asp-action="Obrisi" method="POST">
+                        <a asp-action="Izmeni" class="btn btn-warning btn-sm" asp-route-proizvodID="@p.ProizvodID">Izmeni</a>
+
+                        <input type="hidden" name="proizvodID" value="@p.ProizvodID"/>
+
+                        <button class="btn btn-danger btn-sm" type="submit">Obriši</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="text-center">
+    <a asp-action="Kreiraj" class="btn btn-primary">Dodaj novi proizvod</a>
+</div>

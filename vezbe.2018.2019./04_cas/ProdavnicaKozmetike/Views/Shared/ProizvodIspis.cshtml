@@ -1,0 +1,10 @@
+@model Proizvod
+
+<div class="card border-info mb-3" style="width: 70%">
+     <div class="card-header">@Model.Ime
+         <span class="badge badge-info" style="float:right">@Model.Cena.ToString("c")</span>
+     </div>
+        <div class="card-body text-dark">
+            <p class="card-text">@Model.Opis</p>
+        </div>
+    </div>

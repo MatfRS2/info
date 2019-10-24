@@ -1,0 +1,10 @@
+INSERT INTO Proizvodi VALUES ('Lak za nokte', 'bordo', 200, 'nega ruku');
+INSERT INTO Proizvodi VALUES ('Maskara', 'crna', 1200, 'sminka');
+INSERT INTO Proizvodi VALUES ('Karmin', 'roze', 505, 'sminka');
+INSERT INTO Proizvodi VALUES ('Parfem', 'ruza', 5700, 'mirisi');
+INSERT INTO Proizvodi VALUES ('Kupka', 'vanila', 230, 'nega tela');
+INSERT INTO Proizvodi VALUES ('Mleko za telo', 'vanila', 480, 'nega tela');
+INSERT INTO Proizvodi VALUES ('Sampon', 'kopriva', 345, 'nega kose');
+INSERT INTO Proizvodi VALUES ('Regenerator', 'za ostecenu kosu', 323, 'nega kose');
+INSERT INTO Proizvodi VALUES ('Tonik', 'ciscenje lica', 542, 'nega lica');
+INSERT INTO Proizvodi VALUES ('Aceton', 'uljani', 102, 'nega ruku');

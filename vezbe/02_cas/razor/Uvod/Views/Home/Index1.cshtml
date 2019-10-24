@@ -1,0 +1,22 @@
+﻿@model Proizvod[]
+
+@{
+    ViewBag.Naslov = "Niz Proizvoda";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Ime</th><th>Cena</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Proizvod p in Model)
+        {
+            <tr>
+                <td>@p.Ime</td>
+                <td>@p.Cena.ToString("C2")</td>
+            </tr>
+        }
+    </tbody>
+</table>

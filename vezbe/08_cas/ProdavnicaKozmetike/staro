@@ -1,3 +1,0 @@
-//1.
-<a asp-action="SpisakProizvoda" asp-controller="Proizvod" asp-route-kategorija="@s"
-    class="btn btn-outline-info btn-block">@s</a>

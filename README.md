@@ -24,10 +24,12 @@
 
 * **[Вежбе](/vezbe/README.md)**
 
+* **[Вежбе, академска година 2018/2019](/vezbe.2018.2019./README.md)**
+
 ## Семинарски радови и испити
 
 * **[Семинарски радови](/seminarski-radovi/README.md)**
 
-* **[Писмени испити](/pismeni-ispiti/README.md)**
+* **[Писмени испити, академска година 2018-2019](/pismeni-ispiti/README.md)**
 
 * **[Усмени испити](/usmeni-ispiti/README.md)**

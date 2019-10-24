@@ -1,0 +1,57 @@
+﻿@model Proizvod
+
+@*@{} je blok u kome pisemo C# koji korsnik ne vidi*@
+@*@() je blok u kome pisemo C# koda ali koji korsnik moze da vidi *@
+
+@{
+    ViewBag.Naslov = "Proizvodi";
+}
+
+    @* ovo je komentar u Razor stranicama*@
+
+    <p>Proizvod: @Model.Ime </p>
+
+    @*C2 oznacava Britansko-Engleski. Promenicemo u nekom trenutku u RSD*@
+    <p>Cena: @(Model.Cena.ToString("C2"))</p>
+
+    @*Podatak koji smo preko ViewBag-a preneli iz kontrolera*@
+    @*<p>Kolicina: @ViewBag.Kolicina</p> *@
+
+    @*U Razor izrazima je moguce ubaciti html kod koji ce biti prikazan korisniku.
+      Postoji vise nacina za to. Stavljanjem teksta u html tag (recimo <b>),
+      ili u tag <text> cime se prikazuje obican tekst. Ili sa
+      @:,  sto oznacava da je do kraja te linije html tekst koji se prikazuje korisniku.*@
+    <p>Količina:
+        @switch (ViewBag.Kolicina)
+        {
+            case 0:
+                <text>Nema u zalihama</text> break;
+            case 1:
+            case 2:
+            case 3:
+                @: Male zalihe. Naručiti.
+                break;
+            default:
+                <b>@ViewBag.Kolicina</b>
+                break;
+        }
+    </p>
+
+    @*Drugi nacin:*@
+<p>
+    Količina:
+    @if (ViewBag.Kolicina == 0)
+    {
+        <text>Nema u zalihama</text>
+    }
+    else if (ViewBag.Kolicina >= 1 && ViewBag.Kolicina <= 3)
+    {
+        @: Male zalihe. Naručiti.
+    }
+    else
+    {
+       <b>@ViewBag.Kolicina</b>
+    }
+
+</p>
+
