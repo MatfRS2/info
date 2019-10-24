@@ -1,0 +1,21 @@
+@model ProdavnicaTehnike.Models.Proizvod
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="navbar bg-inverse">
+  <a class="navbar-brand text-white">@ViewBag.Naslov</a>
+</div>
+
+<div id="data" class="p-1 bg-warning">
+  @Json.Serialize(Model)
+</div>
+
+<app-root>Loading...</app-root>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+     <div class="btn-group">
+        <button class="btn btn-primary" *ngFor="let k of kategorije" (click)="setKategorija(k)">{{k}}</button>
+        <button class="btn btn-primary" (click)="setKategorija(null)">Svi</button>
+    </div>

@@ -1,0 +1,30 @@
+@model primer4.Models.Gosti
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />  <!-- omogucava skaliranje web strane -->
+    <title>Zahvalnica</title>
+</head>
+<body>
+    <h1>Hvala @Model.Ime!</h1>
+
+    <p>
+    @if (Model.DolaziNaZurku == true)
+    {
+        @:Super! Vidimo se!
+    }
+    else
+    {
+        @:Zao mi je da to cujem! Vidimo se sledeci put!
+    }
+    </p>
+    <p>Pogledaj <a asp-action="SpisakGostiju">Spisak</a> svih gostiju.</p>
+
+</body>
+</html>

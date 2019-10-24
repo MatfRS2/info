@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Naslov</title>
+        <style>
+            .maindiv {
+                border: solid medium rosybrown;
+                padding: 20px;
+                font-size: 20pt
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Informacije o proizvodima</h1>
+        <div class="maindiv">
+            @RenderBody()
+        </div>
+    </body>
+
+</html>

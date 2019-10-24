@@ -1,0 +1,15 @@
+
+
+        <table class="table table-sm table-striped">
+          <tr><th colspan="2" class="bg-info">Proizvod</th></tr>
+          <tr><th>Ime</th><td>{{proizvod?.ime}}</td></tr>
+          <tr><th>Kategorija</th><td>{{proizvod?.kategorija}}</td></tr>
+          <tr><th>Opis</th><td>{{proizvod?.opis}}</td></tr>
+          <tr><th>Cena</th><td>{{proizvod?.cena}}</td></tr>
+  
+          <tr><th colspan="2" class="bg-info">Proizvođač</th></tr>
+          <tr><th>Ime</th><td>{{proizvod?.proizvodjac?.ime}}</td></tr>
+          <tr><th>Država</th><td>{{proizvod?.proizvodjac?.drzava}}</td></tr>
+          <tr><th>Broj proizvoda</th><td>{{proizvod?.proizvodjac?.proizvodi?.length}}</td></tr>
+      </table>
+  
