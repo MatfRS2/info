@@ -18,7 +18,7 @@ namespace DIinCore
         {
             services.AddTransient<ICategoryRepository, CategoryRepository>();
 
-            services.AddSingleton<ICategoryRepository, CategoryRepository>();
+            //services.AddSingleton<ICategoryRepository, CategoryRepository>();
 
             //services.AddScoped<ICategoryRepository, CategoryRepository>();
 
