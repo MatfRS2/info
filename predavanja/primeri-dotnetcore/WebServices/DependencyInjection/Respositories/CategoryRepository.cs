@@ -14,6 +14,9 @@ namespace DIinCore
             category = new Category() { CategoryId = 2, CategoryName = "Category2" };
             categories.Add(category);
 
+            category = new Category() { CategoryId = 4, CategoryName = "Category4" };
+            categories.Add(category);
+
             return categories;
         }
     }

@@ -21,3 +21,10 @@
 obj/
 [Rr]elease*/
 _ReSharper*/
+/predavanja/primeri-dotnetcore/WebServices/DependencyInjection/.vs/DependencyInjection/DesignTimeBuild/.dtbcache
+/predavanja/primeri-dotnetcore/WebServices/DependencyInjection/.vs/DependencyInjection/v16/Server/sqlite3/db.lock
+/predavanja/primeri-dotnetcore/WebServices/DependencyInjection/.vs/DependencyInjection/v16/Server/sqlite3/storage.ide
+/predavanja/primeri-dotnetcore/WebServices/Swagger/.vs/Swagger/DesignTimeBuild/.dtbcache
+/predavanja/primeri-dotnetcore/WebServices/Swagger/.vs/Swagger/v16/Server/sqlite3/db.lock
+/predavanja/primeri-dotnetcore/WebServices/Swagger/.vs/Swagger/v16/Server/sqlite3/storage.ide
+/predavanja/primeri-dotnetcore/WebServices/Swagger/Swagger.xml

@@ -16,9 +16,9 @@ namespace DIinCore
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<ICategoryRepository, CategoryRepository>();
+            //services.AddTransient<ICategoryRepository, CategoryRepository>();
 
-            //services.AddSingleton<ICategoryRepository, CategoryRepository>();
+            services.AddSingleton<ICategoryRepository, CategoryRepository>();
 
             //services.AddScoped<ICategoryRepository, CategoryRepository>();
 
