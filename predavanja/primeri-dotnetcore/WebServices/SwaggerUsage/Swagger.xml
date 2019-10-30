@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swagger</name>
+    </assembly>
+    <members>
+        <member name="M:DIinCore.Controllers.ValuesController.Get">
+            <summary>
+            Gets this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DIinCore.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Posts the specified value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:DIinCore.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>Puts the specified identifier.</summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:DIinCore.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Brise elemente kobajagi...
+            </summary>
+            <param name="id">
+            Identifikator parametra koji treba obrisati kobajagi 
+            </param>
+        </member>
+    </members>
+</doc>
