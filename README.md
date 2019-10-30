@@ -4,7 +4,7 @@
 
 **[Важно! Промена распореда за предавања](/predavanja/info/README.md)**
 
-[comment]: # (* **[Важно! Термин усмсног испита у испитном року Септембар 2](/usmeni-ispiti/info/README.md)**)
+[comment]: # (* **[Важно! Термин усмсног испита у испитном року Септембар 2](/usmeni-ispiti/info/README.md)* *)
 
 [comment]: # (* **[Важно! Резултати усменог дела испита у року Јун 1](/usmeni-ispiti/info/2019.06.29-RS2.pdf){:target="_blank"}**)
 
