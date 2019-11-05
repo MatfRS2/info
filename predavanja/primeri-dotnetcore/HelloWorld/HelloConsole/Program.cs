@@ -3,16 +3,11 @@ using System;
 
 namespace HelloConsole
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
-            int i = 40;
-            while (i <= 42)
-            {
-                Console.WriteLine(i);
-                i++;
-            }
+            prikazDo42();
             Console.WriteLine("Hello World!");
         }
     }
