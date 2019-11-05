@@ -101,14 +101,14 @@
         * Bangall B. et al.: [C# for Java Programmers](https://www.sciencedirect.com/book/9781931836548/c-for-java-programmers#book-info){:target="_blank"} - Science Direct 2002.
 
         * Eaddy M.: [C# vs. Java](http://www.drdobbs.com/windows/c-versus-java/184404487){:target="_blank"} - DrDobs Journal, [.pdf](/predavanja/literatura/2001 Eaddy C# vs, Java (ddj)){:target="_blank"}
-    
+
         * [ASP .NET Core Tutorial](https://www.tutorialspoint.com/asp.net_core/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint ASP.NET Core.pdf){:target="_blank"}
 
         * [Entity Framework Tutorial](http://www.tutorialspoint.com/entity_framework/){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Entity Framework.pdf){:target="_blank"}
 
         * [Linq Tutorial](http://www.tutorialspoint.com/linq/){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Linq.pdf){:target="_blank"}
 
-1. Књиге, чланци и упутства за **.NET Core архитектуре и микросервисе**
+1. Књиге, чланци и упутства за **.NET Core архитектуру и микросервисе**
 
     * Примарна литература
 
@@ -118,9 +118,15 @@
 
         * De la Torrre C, Carmona D.: [.NET Technology Guide for Business Applications](https://blogs.msdn.microsoft.com/microsoft_press/2013/11/13/free-ebook-net-technology-guide-for-business-applications/){:target="_blank"} - Microsoft Press, 2013, [.pdf](/predavanja/literatura/De la Torrre C, Carmona D. - NET Technology Guide for Business Applications.pdf){:target="_blank"}
 
+1. Књиге, чланци и упутства за **Микросервисну .NET Core архитектуру**
+
+    * Примарна литература
+
         * De la Torre C.: [Modernize Existing .NET applications with Azure cloud and Windows Containers](https://docs.microsoft.com/en-us/dotnet/standard/modernize-with-azure-and-containers/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/De la Torre C. - Modernize Existing .NET applications with Azure cloud and Windows Containers.pdf){:target="_blank"}
 
         * De la Torre C. et al.: [.NET Microservices. Architecture for Containerized .NET Applications, 2nd Edition](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/De la Torre C. et al. - .NET Microservices. Architecture for Containerized .NET Applications, 2nd Edition.pdf){:target="_blank"}
+
+    * Додатна литература
 
         * De la Torre C.: [Containerized Docker Application Lifecycle with Microsoft Platform and Tools](https://blogs.msdn.microsoft.com/microsoft_press/2016/12/07/free-ebook-containerized-docker-applications-lifecycle-with-microsoft-tools-and-platform/){:target="_blank"} - Microsoft Press, 2016, [.pdf](/predavanja/literatura/De la Torre C. - Containerized Docker Application Lifecycle with Microsoft Platform and Tools.pdf){:target="_blank"}
 
