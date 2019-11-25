@@ -1,4 +1,4 @@
-# Вежбе -- Трећи час -- Креирање _tag-helper_-a и основе тестирања
+# Вежбе -- Четврти час -- Креирање _tag-helper_-a и основе тестирања
 
 [повратак](../../README.md)
 
@@ -14,6 +14,7 @@
 
 ### Tag helpers:
 
+- [Документација](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/authoring?view=aspnetcore-3.0)
 - Желимо да омогућимо да корисник може да кликне на линк који га води ка другој, трећој... страни производа (а не да ручно куца адресу)
 - За ту сврху ћемо креирати _tag helper_
 - _Tag helper_ приликом превођења мењају HTML елементе у погледу (view)
@@ -21,6 +22,7 @@
 - А могу се писати и сопствени _tag helper_-и. 
 - _Tag helper_-и се смештају у `Infrastructure/TagHelpers` фолдер.
 - У пројекту је креиран _PageLinkTagHelpers_ -- погледати ову класу и обратити пажњу на коментаре који објашњавају сваки део кода.
+- У _Spisak.cshtml_ се додаје: `<div model-strane="@Model.ModelStrane" akcija="Spisak"></div>`. Када се преведе биће замењен са `<a href...` таговима (погледати `inspect element` у браузеру)
 
 ### View Models:
 
