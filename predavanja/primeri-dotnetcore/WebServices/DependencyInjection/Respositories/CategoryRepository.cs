@@ -8,13 +8,13 @@ namespace DIinCore
         {
             List<Category> categories = new List<Category>();
 
-            Category category = new Category() { CategoryId = 1, CategoryName = "Category1" };
+            Category category = new Category() { CategoryId = 1, CategoryName = "Filmovi" };
             categories.Add(category);
 
-            category = new Category() { CategoryId = 2, CategoryName = "Category2" };
+            category = new Category() { CategoryId = 2, CategoryName = "Slike" };
             categories.Add(category);
 
-            category = new Category() { CategoryId = 4, CategoryName = "Category4" };
+            category = new Category() { CategoryId = 4, CategoryName = "Ploče" };
             categories.Add(category);
 
             return categories;
