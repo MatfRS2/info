@@ -63,15 +63,6 @@ the  Main method, which calls Run to start handling HTTP requests.
 _pipeline_ и обрађује се редом како је _middleware_ наведен. _Middleware_ може да проследи захтев следећем у низу или
 да га обради и врати одговор.  _Middleware_ (у оквиру својих позива) може да користи сервисе које смо навели у методи `ConfigureServices`.
 
-## Креирање UnitTest
-
-`Add->New Project -->xUnitTest`
-
-Задати ново име и одабрати `Add to this solution`.
-
-Десни клик на име пројекта па `Manage NuGet Packages`, одабрати `Moq` и `Install`.
-
-Десни клик па `Add --> Reference` и онда одабрати жељени пројекат (обратити пажњу на измене у `.csproj` фајлу).
 
 ## Даљи кораци
 
