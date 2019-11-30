@@ -4,6 +4,10 @@ using System.Threading.Tasks;
   
 namespace DIinCore.Controllers
 {
+    /// <summary>
+    /// Kontroler veb servisa koji vrace kategorije 
+    /// </summary>
+    /// <seealso cref="Microsoft.AspNetCore.Mvc.Controller" />
     [Route("api/Category")]
     public class CategoryController : Controller
     {
@@ -13,6 +17,10 @@ namespace DIinCore.Controllers
             this.categoryRepository = categoryRepository;
         }
 
+        /// <summary>
+        /// Vraće kategorije.
+        /// </summary>
+        /// <returns> OK kod ako je sve OK.</returns>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
