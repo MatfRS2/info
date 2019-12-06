@@ -1,0 +1,45 @@
+﻿@model Porudzbina
+
+@{ 
+    ViewBag.Title = "Info za dostavu";
+}
+
+<h2>Adresa dostave</h2>
+<p>Unesite adresu za dostavu i mi ćemo poslati robu</p>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Placanje" asp-controller="Porudzbina" method="post">
+    <div class="form-group">
+        <label>Ime</label>
+        <input type="text" asp-for="Ime" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Adresa 1:</label>
+        <input asp-for="Adresa1" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Adresa 2:</label>
+        <input asp-for="Adresa2" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Naziv grada:</label>
+        <input asp-for="ImeGrada" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Naziv države:</label>
+        <input asp-for="Drzava" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Poštanski broj:</label>
+        <input asp-for="PostanskiBroj" class="form-control" />
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" asp-for="Poklon">
+        <label class="form-check-label">Poklon</label>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" type="submit">Plaćanje</button>
+    </div>
+</form>
