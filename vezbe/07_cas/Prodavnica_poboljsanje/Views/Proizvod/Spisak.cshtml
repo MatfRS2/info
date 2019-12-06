@@ -1,0 +1,17 @@
+﻿@model SpisakProizvodaViewModel
+
+@{ 
+    ViewBag.Title = "Spisak";
+}
+
+@foreach(var p in Model.Proizvodi)
+{
+    <partial name="Shared/ProizvodIspis.cshtml" for="@p" />
+}
+
+        @* U tag helperu je polje ModelStrane, ali ga on ovde pretvara u
+        model-strane. Slicno za KlasaElementa itd...*@
+        <div model-strane="@Model.ModelStrane" akcija="Spisak"
+             klasa-elementa="btn" klasa-elementa-normalno="btn-outline-primary"
+             klasa-elementa-selektovano="btn-primary"></div>
+

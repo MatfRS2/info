@@ -1,0 +1,22 @@
+﻿@model Proizvod
+
+    <div class="card border-info mb-3" style="width: 70%">
+        <div class="card-header">
+            @Model.Ime
+            <span class="badge badge-info" style="float:right">
+                @Model.Cena.ToString("c", Cultures.Srbija)
+            </span>
+        </div>
+        @*Dodajemo pored Opisa proizvoda dugme za Dodavanje proizovda u Korpu*@
+        <form asp-action="DodajUKorpu" asp-controller="Korpa" method="post">
+            <input type="hidden" name="proizvodId" value="@Model.ProizvodId" />
+            <span class="card-text">
+                @Model.Opis
+                <input type="number" name="kolicina" style="float:right"/>
+                <button type="submit" class="btn btn-success btn-sm" style="float:right">
+                    Dodaj u korpu
+                </button>
+            </span>
+        </form>
+
+    </div>
