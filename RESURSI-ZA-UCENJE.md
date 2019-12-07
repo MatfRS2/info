@@ -79,7 +79,7 @@
         * Newman S.: [Building Microservices](https://samnewman.io/books/building_microservices/){:target="_blank"} - O'Reilly, 2015, [.pdf издање пред штампу](/predavanja/literatura/Newman S. - Building Microservices.pdf){:target="_blank"}
 
     * Додатна литература
-
+  
         * Yanaga Е.: [Migrating to Microservices Databases](https://www.oreilly.com/programming/free/migrating-to-microservice-databases.csp){:target="_blank"} - O'Reilly, 2016, [.pdf издање пред штампу](/predavanja/literatura/Yanaga E. - Migrating to Microservices Databases.pdf){:target="_blank"}
 
         * [Microservices vs. Monoliths](https://www.infoq.com/minibooks/emag-microservices-monoliths){:target="_blank"} - InfoQ eMag, 2017, [.pdf](/predavanja/literatura/InfoQ eMag - Microservices vs. Monoliths.pdf){:target="_blank"}
