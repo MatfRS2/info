@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MojKorisnik>
+
+@{
+    ViewBag.Title = "Spisak korisnika";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<table class="table table-sm table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Ime</th>
+        <th>Email</th>
+    </tr>
+    @foreach(MojKorisnik korisnik in Model)
+    {
+        <tr>
+            <td>@korisnik.Id</td>
+            <td>@korisnik.UserName</td>
+            <td>@korisnik.Email</td>
+            <td>
+                <form asp-action="Obrisi" asp-route-id="@korisnik.Id" method="post">
+                    <button type="submit" class="btn btn-sm btn-danger">
+                        Obriši
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+
+<a class="btn btn-primary" asp-action="KreirajKorisnika">Kreiraj novog korisnika</a>
+
+
