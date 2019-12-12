@@ -5,7 +5,6 @@
 # RUN COMMAND (EXAMPLE)
 #  docker run -dit --name rabbitmq-container -p 35671:15671 -p 35672:15672 rabbitmq-image
 
-
 FROM rabbitmq:3.7
 
 RUN rabbitmq-plugins enable --offline rabbitmq_management
