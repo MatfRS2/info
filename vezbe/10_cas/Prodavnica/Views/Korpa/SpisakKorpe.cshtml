@@ -1,0 +1,59 @@
+﻿@model KorpaViewModel
+
+@{
+    ViewData["Title"] = "Spisak Korpe";
+}
+
+<h2>Vasa korpa</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Količina</th>
+            <th>Proizvod</th>
+            <th>Cena</th>
+            <th>Ukupna cena</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (KorpaElement element in Model.Korpa.ListaProizvodaUKorpi)
+        {
+            <tr>
+                <td>@element.Kolicina</td>
+                <td>@element.Proizvod.Ime</td>
+                <td>@element.Proizvod.Cena.ToString("c", Cultures.Srbija)</td>
+                <td>@((element.Proizvod.Cena * element.Kolicina).ToString("c", Cultures.Srbija))</td>
+
+                <td>
+                    <form asp-action="IzbrisiIzKorpe" asp-controller="Korpa" method="post">
+                        <input type="hidden" name="proizvodId" value="@element.Proizvod.ProizvodId" />
+                        <input type="number" name="kolicina" />
+                        <input type="hidden" name="url" value="@Model.Url" />
+                        <button type="submit" class="btn btn-sm btn-danger">
+                            Obriši
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="3" class="text-right">Ukupno</th>
+            <th class="text-right">@Model.Korpa.IzracunajVrednost().ToString("c", Cultures.Srbija)</th>
+        </tr>
+    </tfoot>
+</table>
+
+@*Vracanje na kupovinu, pokusaj 1*@
+@*
+    <div>
+        <a class="btn btn-primary" asp-action="Spisak" asp-controller="Proizvod">Povratak na kupovinu</a>
+    </div>
+*@
+
+@*Vracanje na kupovinu, pokusaj 2, vracace na prethodnu stranu*@
+<div>
+    <a class="btn btn-primary" href="@Model.Url">Povratak na kupovinu</a>
+    <a class="btn btn-primary" asp-controller="Porudzbina" asp-action="Placanje">Plaćanje</a>
+</div>

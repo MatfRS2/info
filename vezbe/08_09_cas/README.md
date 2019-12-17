@@ -1,4 +1,4 @@
-# Вежбе -- Oсми и девети час -- 
+# Вежбе -- Oсми и девети час -- Креирање CRUD за производе, рад са фајловима, асихроне методе, Identity и ауторизација
 
 [повратак](../../README.md)
 
@@ -11,7 +11,7 @@
 - Креирати `_AdminLayout.cshtml`
 - Креирати `SpisakNeposlatihPorudzbina.cshtml`. Страни се може приступити преко `https://localhost:XXXX/Porudzbina/SpisakNeposlatihPorucdzbina`. Обратити пажњу да за сада никоме није ограничен приступ.
 
-## Задатак 2: Додати могућнсти за брисање, додавање и мењање производа (CRUD -- create read update delete)
+## Задатак 2: Додати могућности за брисање, додавање и мењање производа (CRUD -- create read update delete)
 
 - Креирати `AdminController`, додати конструктор и метод `SpisakProizvoda`
 - Креирати страницу `Views/Admin/SpisakProizvoda.cshtml`. Обратити пажњу на акције `Обриши` и `Измени`. На основу имплементације може се приметити да је `Измени` линк, док је `Обриши` решено преко форме. Разлог за ову разлику је у следећем:
@@ -28,6 +28,7 @@
 	- Кључна реч **await** се наводи испред позива методе којој треба време да се изврши.
 	- [Добар чланак о асинхроним функцијама](https://exceptionnotfound.net/asynchronous-programming-in-asp-net-csharp-ultimate-guide/).
 - У `AdminController` додати метод `Izmeni` (сада `post`). Креирати фолдер `wwwroot/ProizvodiSlike`. У методи `Izmeni` коришћен је атрибут `Bind`. Препорука је да се овај атрибут користи као један од нивоа заштите против _over-post_.
+- Важна напомена: да би корисник могао да приступи неком фолдеру, онда је пожељно поставити га у `wwwroot` фолдер или експлицитно променити конфигурацију и навести где корисник још има права приступа.
 - Овом приликом дата је могућност учитавања слика. Имплементирано решење је прилагођено оперативном систему Windows, али за друге системе би било потребно позвати друге функције (и користити друге библиотеке).
 - Коришћен је `IHostingEnvironment` који омогућава приступ подразумеваној путањи (wwwroot фолдер). Наравно, у `Startup.cs` могуће је изменити све подразумеване путање (у Core 3.0 то је сада `IWebHostEnvironment`!).
 - Више о учитавању и чувању фајлова у [документацији](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/file-uploads?view=aspnetcore-3.0).
@@ -41,8 +42,26 @@ services.AddSingleton<IFileProvider>(
 ```
 
 ---
-## Задатак 3: изменити права приступа
+## Задатак 3: Изменити права приступа
 
-.... биће додато 
+- За рад са кориницима користимо ASP.NET Core библиотеку Identity у којој је већ имплеметирано већина својстава који су најчешће потребни у апликацији. Више о разним могућностима које нуди у званичној [документацији](https://docs.microsoft.com/en-us/aspnet/identity/) (two-factor authentication, password recovery...).
+- Креирати класу _MojKorisnik_, класу AppIdentityDbContext, у _appsetting.json_ додати _connection string_ за нову базу, и у класи `Startup` додати потребну конфигурацију (подешавања Enitity Framework-а за рад са Identity базом и подешавања самог Identity -- задавње која класа се користи за корисника (MojKorisnik), а која за роле (користимо уграђену класу IdentityRole))
+- Потом:
+	- `dotnet ef migrations add Initial --contex AppIdentityDbContext`
+	- `dotnet ef database update --context AppIdentityDbContext`
+- Креирати `AccountController`, `Views/Account/Korisnici.cshtml`, `Views/Account/KreirajKorisnika.cshtml`, `Models/ViewModels/KreirajKorisnikaModel.cs`
+- У `AccountController` додати метод `KreirajKorisnika`, `Obrisi`
+- Роле ћемо додати експлицитно у базу. То је опет могуће урадити на два начина, преко упита (рецимо, коришћењем упита су додати производи у базу на почетку прављења апликације) или директно из апликације. Овог пута је одабран други начин:
+	- Направи `Models/IdentitySeedData.cs` (додајемо само две роле `Administrator` и `ObicanKorisnik`). Уколико ове роле већ постоје обнда се ништа не дешава, али ако не постоје додају се у базу.
+	- На дну методе `Configure` у класи `Startup` додати `IdentitySeedData.DodajDefaultRole(app);`
+	- Да не би избацивао грешку изменити метод `CreateWebHostBuilder` у `Program.cs`
+- На разна места (код разних контролера и њихових метода) додати:
+    - [Authorize (Roles = "Administrator")]
+    - [Authorize (Roles = "Administrator, ObicanKorisnik")]
+    - [AllowAnonymous] 
+    - итд.
+- У `AccountController` додати методe `Prijavljivanje` и `Odjava`
+- Креирати `Views/Account/Prijavljivanje.cshtml` и додати могућност за одјаву у `_AdminLayout`
+	
 
 [повратак](../../README.md)
