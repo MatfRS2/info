@@ -1,8 +1,8 @@
 version: "3.2"
 services:
 
-  sql-server-db:
-    container_name: mssql-server-container
+  mssql-server-db:
+    container_name: mssql-server-container2
     image: microsoft/mssql-server-linux:2017-latest
     ports:
       - "2433:1433"
