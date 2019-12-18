@@ -1,0 +1,30 @@
+﻿@model KreirajKorisnikaModel
+
+@{
+    ViewBag.Title = "Kreiraj Korisnika";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="text-danger" asp-validation-summary="All"></div>
+
+<form asp-action="KreirajKorisnika" asp-controller="Account" method="post">
+    <div class="form-group">
+        <div><span class="text-danger" asp-validation-for="Ime"></span></div>
+        <label>Ime</label>
+        <input asp-for="Ime" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <div><span class="text-danger" asp-validation-for="Email"></span></div>
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <div><span class="text-danger" asp-validation-for="Sifra"></span></div>
+        <label>Sifra</label>
+        <input asp-for="Sifra" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Sačuvaj</button>
+</form>
+
