@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEF", "HelloConsoleEF\HelloConsoleEF.csproj", "{E1A5481A-845B-4862-B63E-F02D79A838F1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsole", "HelloConsole\HelloConsole.csproj", "{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWeb", "HelloWeb\HelloWeb.csproj", "{DF3E7A30-AA10-42BB-A759-5EAC2ED8235C}"
@@ -15,16 +13,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebMvc", "HelloWebMvc\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebMvcEF", "HelloWebMvcEF\HelloWebMvcEF.csproj", "{B09FF4AA-63B0-4946-A561-4BFC90368117}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEfMySql", "HelloConsoleEfMySql\HelloConsoleEfMySql.csproj", "{95C343B9-0E4A-42FF-A871-1C0D65CF3379}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEfSqlSrv", "HelloConsoleEfSqlSrv\HelloConsoleEfSqlSrv.csproj", "{60D41E6C-BFDF-4A1C-A8C7-6C1EBA7B9E3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleEfXBoth", "HelloConsoleEfXBoth\HelloConsoleEfXBoth.csproj", "{69193BC9-FA1E-4DDD-9858-6C595C96ECE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1A5481A-845B-4862-B63E-F02D79A838F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1A5481A-845B-4862-B63E-F02D79A838F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1A5481A-845B-4862-B63E-F02D79A838F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1A5481A-845B-4862-B63E-F02D79A838F1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FAD02D2-9F4D-4489-8D41-326F2CDDBB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +45,18 @@ Global
 		{B09FF4AA-63B0-4946-A561-4BFC90368117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09FF4AA-63B0-4946-A561-4BFC90368117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09FF4AA-63B0-4946-A561-4BFC90368117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C343B9-0E4A-42FF-A871-1C0D65CF3379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C343B9-0E4A-42FF-A871-1C0D65CF3379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C343B9-0E4A-42FF-A871-1C0D65CF3379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C343B9-0E4A-42FF-A871-1C0D65CF3379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D41E6C-BFDF-4A1C-A8C7-6C1EBA7B9E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D41E6C-BFDF-4A1C-A8C7-6C1EBA7B9E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D41E6C-BFDF-4A1C-A8C7-6C1EBA7B9E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D41E6C-BFDF-4A1C-A8C7-6C1EBA7B9E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69193BC9-FA1E-4DDD-9858-6C595C96ECE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69193BC9-FA1E-4DDD-9858-6C595C96ECE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69193BC9-FA1E-4DDD-9858-6C595C96ECE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69193BC9-FA1E-4DDD-9858-6C595C96ECE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
