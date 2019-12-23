@@ -10,16 +10,37 @@
             </summary>
             <seealso cref="T:Microsoft.AspNetCore.Mvc.Controller" />
         </member>
+        <member name="M:DIinCore.Controllers.CategoryController.#ctor(DIinCore.ICategoryRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DIinCore.Controllers.CategoryController"/> class.
+            </summary>
+            <param name="categoryRepository">The category repository.</param>
+        </member>
         <member name="M:DIinCore.Controllers.CategoryController.Get">
             <summary>
             Vraće kategorije.
             </summary>
-            <returns> OK kod ako je sve OK.</returns>
+            <returns>
+            OK kod ako je sve OK.
+            </returns>
+        </member>
+        <member name="T:DIinCore.Controllers.ValuesController">
+            <summary>
+            Kontroler za vrednosti
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.Controller" />
         </member>
         <member name="M:DIinCore.Controllers.ValuesController.Get">
             <summary>
             Gets this instance.
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DIinCore.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Gets the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
             <returns></returns>
         </member>
         <member name="M:DIinCore.Controllers.ValuesController.Post(System.String)">
@@ -40,6 +61,191 @@
             <param name="id">
             Identifikator parametra koji treba obrisati kobajagi 
             </param>
+        </member>
+        <member name="T:DIinCore.KategorijeContext">
+            <summary>
+            Kontekst podataka
+            </summary>
+            <seealso cref="T:Microsoft.EntityFrameworkCore.DbContext" />
+        </member>
+        <member name="P:DIinCore.KategorijeContext.Category">
+            <summary>
+            Gets or sets the category.
+            </summary>
+            <value>
+            The category.
+            </value>
+        </member>
+        <member name="M:DIinCore.KategorijeContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{DIinCore.KategorijeContext})">
+            <summary>
+            Initializes a new instance of the <see cref="T:DIinCore.KategorijeContext"/> class.
+            </summary>
+            <param name="options">The options.</param>
+        </member>
+        <member name="M:DIinCore.KategorijeContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            <para>
+            Override this method to configure the database (and other options) to be used for this context.
+            This method is called for each instance of the context that is created.
+            </para>
+            <para>
+            In situations where an instance of <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions" /> may or may not have been passed
+            to the constructor, you can use <see cref="P:Microsoft.EntityFrameworkCore.DbContextOptionsBuilder.IsConfigured" /> to determine if
+            the options have already been set, and skip some or all of the logic in
+            <see cref="M:Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)" />.
+            </para>
+            </summary>
+            <param name="optionsBuilder">A builder used to create or modify options for this context. Databases (and other extensions)
+            typically define extension methods on this object that allow you to configure the context.</param>
+        </member>
+        <member name="M:DIinCore.KategorijeContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Override this method to further configure the model that was discovered by convention from the entity types
+            exposed in <see cref="T:Microsoft.EntityFrameworkCore.DbSet`1" /> properties on your derived context. The resulting model may be cached
+            and re-used for subsequent instances of your derived context.
+            </summary>
+            <param name="modelBuilder">The builder being used to construct the model for this context. Databases (and other extensions) typically
+            define extension methods on this object that allow you to configure aspects of the model that are specific
+            to a given database.</param>
+            <remarks>
+            If a model is explicitly set on the options for this context (via <see cref="M:Microsoft.EntityFrameworkCore.DbContextOptionsBuilder.UseModel(Microsoft.EntityFrameworkCore.Metadata.IModel)" />)
+            then this method will not be run.
+            </remarks>
+        </member>
+        <member name="T:DIinCore.Category">
+            <summary>
+            Kategorija
+            </summary>
+        </member>
+        <member name="P:DIinCore.Category.CategoryId">
+            <summary>
+            Gets or sets the category identifier.
+            </summary>
+            <value>
+            The category identifier.
+            </value>
+        </member>
+        <member name="P:DIinCore.Category.CategoryName">
+            <summary>
+            Gets or sets the name of the category.
+            </summary>
+            <value>
+            The name of the category.
+            </value>
+        </member>
+        <member name="T:DIinCore.Program">
+            <summary>
+            Ulazna klasa
+            </summary>
+        </member>
+        <member name="M:DIinCore.Program.Main(System.String[])">
+            <summary>
+            Defines the entry point of the application.
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:DIinCore.Program.BuildWebHost(System.String[])">
+            <summary>
+            Builds the web host.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns></returns>
+        </member>
+        <member name="T:DIinCore.CategoryRepositoryEF">
+            <summary>
+            Repozitorujum za kategorije 
+            </summary>
+            <seealso cref="T:DIinCore.ICategoryRepository" />
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryEF.#ctor(DIinCore.KategorijeContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DIinCore.CategoryRepositoryEF"/> class.
+            </summary>
+            <param name="kontekst">The kontekst.</param>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryEF.GetCategories">
+            <summary>
+            Gets the categories.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryEF.GetCategoryById(System.Int32)">
+            <summary>
+            Gets the category by identifier.
+            </summary>
+            <param name="categoryId">The category identifier.</param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:DIinCore.CategoryRepositoryInMemory">
+            <summary>
+            Repozitorujum za kategorije 
+            </summary>
+            <seealso cref="T:DIinCore.ICategoryRepository" />
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryInMemory.GetCategories">
+            <summary>
+            Gets the categories.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryInMemory.GetCategoryById(System.Int32)">
+            <summary>
+            Gets the category by identifier.
+            </summary>
+            <param name="categoryId">The category identifier.</param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:DIinCore.ICategoryRepository">
+            <summary>
+            Interfejs koji opisuje repozitorijum za kategorije
+            </summary>
+        </member>
+        <member name="M:DIinCore.ICategoryRepository.GetCategories">
+            <summary>
+            Gets the categories.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DIinCore.ICategoryRepository.GetCategoryById(System.Int32)">
+            <summary>
+            Gets the category by identifier.
+            </summary>
+            <param name="categoryId">The category identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="T:DIinCore.Startup">
+            <summary>
+            Programski kod koji se izvrsava pri pokretanju
+            </summary>
+        </member>
+        <member name="M:DIinCore.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DIinCore.Startup"/> class.
+            </summary>
+            <param name="configuration">The configuration.</param>
+        </member>
+        <member name="P:DIinCore.Startup.Configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+            <value>
+            The configuration.
+            </value>
+        </member>
+        <member name="M:DIinCore.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures the services.
+            </summary>
+            <param name="services">The services.</param>
+        </member>
+        <member name="M:DIinCore.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Configures the specified application.
+            </summary>
+            <param name="app">The application.</param>
+            <param name="env">The env.</param>
         </member>
     </members>
 </doc>

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{5075C15A-F31B-4F50-A807-6FF04C279954}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerUssage", "SwaggerUsage\SwaggerUssage.csproj", "{32DD1615-59FF-4C9F-9551-4072DF6CFA5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerUsage", "SwaggerUsage\SwaggerUsage.csproj", "{32DD1615-59FF-4C9F-9551-4072DF6CFA5B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithDatabase", "WithDatabase\WithDatabase.csproj", "{381A2BA3-5341-4F57-A03E-8E1C04F3EFA5}"
 EndProject

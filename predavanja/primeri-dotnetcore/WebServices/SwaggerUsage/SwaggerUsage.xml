@@ -1,9 +1,21 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Swagger</name>
+        <name>SwaggerUsage</name>
     </assembly>
     <members>
+        <member name="T:DIinCore.Controllers.CategoryController">
+            <summary>
+            Kontroler veb servisa koji vrace kategorije 
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.Controller" />
+        </member>
+        <member name="M:DIinCore.Controllers.CategoryController.Get">
+            <summary>
+            Vraće kategorije.
+            </summary>
+            <returns> OK kod ako je sve OK.</returns>
+        </member>
         <member name="M:DIinCore.Controllers.ValuesController.Get">
             <summary>
             Gets this instance.

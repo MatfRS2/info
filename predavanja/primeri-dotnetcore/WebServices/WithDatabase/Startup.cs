@@ -40,7 +40,14 @@ namespace DIinCore
         /// <param name="services">The services.</param>
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<ICategoryRepository, CategoryRepositoryInMemory>();
+
+            //services.AddScoped<ICategoryRepository, CategoryRepositoryInMemory>();
+
+            services.AddDbContext<KategorijeContext>(options => Configuration.GetConnectionString("KategorijeConnection"));
+            services.AddScoped<ICategoryRepository>(
+                sp => new CategoryRepositoryEF(
+                    sp.GetService<KategorijeContext>())
+            );
 
             services.AddMvc();
             services.AddSwaggerGen(c =>
@@ -66,7 +73,7 @@ namespace DIinCore
                 Assembly currentAssembly = Assembly.GetExecutingAssembly();
                 string path = currentAssembly.GetName().ToString();
                 int indexComma = path.IndexOf(',');
-                c.IncludeXmlComments( path.Substring(0, indexComma) + ".xml");
+                c.IncludeXmlComments(path.Substring(0, indexComma) + ".xml");
                 string[] xmlDocs = currentAssembly.GetReferencedAssemblies()
                     .Union(new AssemblyName[] { currentAssembly.GetName() })
                     .Select(a => Path.Combine(Path.GetDirectoryName(currentAssembly.Location), $"{a.Name}.xml"))
