@@ -48,7 +48,7 @@ namespace DIinCore
                 Configuration.GetConnectionString("KategorijeConnection"))
             );
             services.AddScoped<ICategoryRepository>(
-                sp => new CategoryRepositoryEF(
+                sp => new CategoryRepositoryEntityFramework(
                     sp.GetService<KategorijeContext>())
             );
 

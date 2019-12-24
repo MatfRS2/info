@@ -4,25 +4,47 @@
         <name>WithDatabase</name>
     </assembly>
     <members>
-        <member name="T:DIinCore.Controllers.CategoryController">
+        <member name="T:DIinCore.Controllers.CategoriesController">
             <summary>
             Kontroler veb servisa koji vrace kategorije 
             </summary>
             <seealso cref="T:Microsoft.AspNetCore.Mvc.Controller" />
         </member>
-        <member name="M:DIinCore.Controllers.CategoryController.#ctor(DIinCore.ICategoryRepository)">
+        <member name="M:DIinCore.Controllers.CategoriesController.#ctor(DIinCore.ICategoryRepository)">
             <summary>
-            Initializes a new instance of the <see cref="T:DIinCore.Controllers.CategoryController"/> class.
+            Initializes a new instance of the <see cref="T:DIinCore.Controllers.CategoriesController"/> class.
             </summary>
             <param name="categoryRepository">The category repository.</param>
         </member>
-        <member name="M:DIinCore.Controllers.CategoryController.Get">
+        <member name="M:DIinCore.Controllers.CategoriesController.Get">
             <summary>
             Vraće kategorije.
             </summary>
             <returns>
             OK kod ako je sve OK.
             </returns>
+        </member>
+        <member name="M:DIinCore.Controllers.CategoriesController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Daje detalje za prosledjeni identifikato kategorije.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DIinCore.Controllers.CategoriesController.PostAsync(DIinCore.Category)">
+            <summary>
+            Ubacuje zadati grad među gradove. 
+            Metod radi na asinhroni način.
+            </summary>
+            <example>
+            POST: olimp/korisnici/gradovi
+            </example>
+            <param name="ent">Grad koji se ubacuje.</param>
+            <returns>Elemenat za povratni poziv tipa <see cref="T:OlimpDDD.CRUD.Domen.Grad"/>
+            , koji predstavlja novododati grad.</returns>
+            <response code="201">Putanja prema novododatom gradu.</response>
+            <response code="400">Pokušaj dodavanja grada nije uspeo.</response>
+            <response code="500">Greška u procesiranju na serverskoj strani.</response>
         </member>
         <member name="M:DIinCore.Controllers.ValuesController.Get">
             <summary>
@@ -145,30 +167,52 @@
             <param name="args">The arguments.</param>
             <returns></returns>
         </member>
-        <member name="T:DIinCore.CategoryRepositoryEF">
+        <member name="T:DIinCore.CategoryRepositoryEntityFramework">
             <summary>
             Repozitorujum za kategorije 
             </summary>
             <seealso cref="T:DIinCore.ICategoryRepository" />
         </member>
-        <member name="M:DIinCore.CategoryRepositoryEF.#ctor(DIinCore.KategorijeContext)">
+        <member name="M:DIinCore.CategoryRepositoryEntityFramework.#ctor(DIinCore.KategorijeContext)">
             <summary>
-            Initializes a new instance of the <see cref="T:DIinCore.CategoryRepositoryEF"/> class.
+            Initializes a new instance of the <see cref="T:DIinCore.CategoryRepositoryEntityFramework"/> class.
             </summary>
             <param name="kontekst">The kontekst.</param>
         </member>
-        <member name="M:DIinCore.CategoryRepositoryEF.GetCategories">
+        <member name="M:DIinCore.CategoryRepositoryEntityFramework.GetCategories">
             <summary>
             Gets the categories.
             </summary>
             <returns></returns>
         </member>
-        <member name="M:DIinCore.CategoryRepositoryEF.GetCategoryById(System.Int32)">
+        <member name="M:DIinCore.CategoryRepositoryEntityFramework.GetCategoryById(System.Int32)">
             <summary>
             Gets the category by identifier.
             </summary>
-            <param name="categoryId">The category identifier.</param>
+            <param name="id">The category identifier.</param>
             <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryEntityFramework.DeleteCategory(System.Int32)">
+            <summary>
+            Deletes the category.
+            </summary>
+            <param name="id">The identifier.</param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryEntityFramework.InsertCategory(DIinCore.Category)">
+            <summary>
+            Inserts the category.
+            </summary>
+            <param name="kategorija">The kategorija.</param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryEntityFramework.UpdateCategory(System.Int32,DIinCore.Category)">
+            <summary>
+            Updates the category.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="kategorija">The kategorija.</param>
             <exception cref="T:System.NotImplementedException"></exception>
         </member>
         <member name="T:DIinCore.CategoryRepositoryInMemory">
@@ -233,8 +277,27 @@
             <summary>
             Gets the category by identifier.
             </summary>
-            <param name="categoryId">The category identifier.</param>
+            <param name="id">The identifier.</param>
             <returns></returns>
+        </member>
+        <member name="M:DIinCore.ICategoryRepository.InsertCategory(DIinCore.Category)">
+            <summary>
+            Inserts the category.
+            </summary>
+            <param name="kategorija">The kategorija.</param>
+        </member>
+        <member name="M:DIinCore.ICategoryRepository.UpdateCategory(System.Int32,DIinCore.Category)">
+            <summary>
+            Updates the category.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="kategorija">The kategorija.</param>
+        </member>
+        <member name="M:DIinCore.ICategoryRepository.DeleteCategory(System.Int32)">
+            <summary>
+            Deletes the category.
+            </summary>
+            <param name="id">The identifier.</param>
         </member>
         <member name="T:DIinCore.Startup">
             <summary>
