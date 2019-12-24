@@ -2,19 +2,86 @@
 
 namespace DIinCore
 {
+    /// <summary>
+    /// Repozitorijum za kategorije 
+    /// </summary>
+    /// <seealso cref="DIinCore.ICategoryRepository" />
     public class CategoryRepository : ICategoryRepository
     {
+
+
+        private List<Category> kategorije = new List<Category>();
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CategoryRepository"/> class.
+        /// </summary>
+        public CategoryRepository()
+        {
+            kategorije.Add(new Category() { CategoryId = 10, CategoryName = "Košulja" });
+            kategorije.Add(new Category() { CategoryId = 11, CategoryName = "Majica" });
+            kategorije.Add(new Category() { CategoryId = 10, CategoryName = "Farmerke" });
+        }
+
+        /// <summary>
+        /// Gets the categories.
+        /// </summary>
+        /// <returns></returns>
         public List<Category> GetCategories()
         {
-            List<Category> categories = new List<Category>();
+            return kategorije;
+        }
 
-            Category category = new Category() { CategoryId = 1, CategoryName = "Category1" };
-            categories.Add(category);
+        /// <summary>
+        /// Gets the category by identifier.
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <returns></returns>
+        /// <exception cref="System.NotImplementedException"></exception>
+        public Category GetCategoryById(int id)
+        {
+            foreach (Category kat in kategorije)
+                if (kat.CategoryId == id)
+                    return kat;
+            return null;
+        }
 
-            category = new Category() { CategoryId = 2, CategoryName = "Category2" };
-            categories.Add(category);
+        /// <summary>
+        /// Deletes the category.
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <exception cref="System.NotImplementedException"></exception>
+        public void DeleteCategory(int id)
+        {
+            int pozicija = 0;
+            for (int i = 0; i < kategorije.Count; i++)
+                if (kategorije[i].CategoryId == id)
+                    pozicija = i;
+            kategorije.RemoveAt(pozicija);
+        }
 
-            return categories;
+        /// <summary>
+        /// Inserts the category.
+        /// </summary>
+        /// <param name="kategorija">The kategorija.</param>
+        /// <exception cref="System.NotImplementedException"></exception>
+        public void InsertCategory(Category kategorija)
+        {
+            kategorije.Add(kategorija);
+        }
+
+        /// <summary>
+        /// Updates the category.
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <param name="kategorija">The kategorija.</param>
+        /// <exception cref="System.NotImplementedException"></exception>
+        public void UpdateCategory(int id, Category kategorija)
+        {
+            int pozicija = 0;
+            for (int i = 0; i < kategorije.Count; i++)
+                if (kategorije[i].CategoryId == id)
+                    pozicija = i;
+            kategorije[pozicija] = kategorija;
         }
     }
 }

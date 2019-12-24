@@ -11,10 +11,15 @@ namespace DIinCore.Controllers
     [Route("api/Category")]
     public class CategoryController : Controller
     {
-        private ICategoryRepository categoryRepository { get; set; }
+        private ICategoryRepository _categoryRepository;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CategoryController"/> class.
+        /// </summary>
+        /// <param name="categoryRepository">The category repository.</param>
         public CategoryController(ICategoryRepository categoryRepository)
         {
-            this.categoryRepository = categoryRepository;
+            _categoryRepository = categoryRepository;
         }
 
         /// <summary>
@@ -24,7 +29,7 @@ namespace DIinCore.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            List<Category> categories = categoryRepository.GetCategories();
+            List<Category> categories = _categoryRepository.GetCategories();
             return Ok(categories);
         }
     }

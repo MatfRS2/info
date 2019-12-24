@@ -73,8 +73,8 @@ namespace DIinCore
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("v1/swagger.json", "Olimp API V1");
-                c.OAuthClientId("olimpCrudServiceSwagger");
+                c.SwaggerEndpoint("v1/swagger.json", "MatfRS API V1");
+                c.OAuthClientId("mathRsServiceSwagger");
                 c.OAuthClientSecret("");
                 c.OAuthRealm("");
                 c.OAuthAppName("Swagger UI");

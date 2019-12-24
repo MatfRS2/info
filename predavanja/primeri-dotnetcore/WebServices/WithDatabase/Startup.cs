@@ -9,6 +9,7 @@ using System.Linq;
 using System.Reflection;
 
 using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.EntityFrameworkCore;
 
 namespace DIinCore
 {
@@ -43,13 +44,16 @@ namespace DIinCore
 
             //services.AddScoped<ICategoryRepository, CategoryRepositoryInMemory>();
 
-            services.AddDbContext<KategorijeContext>(options => Configuration.GetConnectionString("KategorijeConnection"));
+            services.AddDbContext<KategorijeContext>(options => options.UseSqlServer( 
+                Configuration.GetConnectionString("KategorijeConnection"))
+            );
             services.AddScoped<ICategoryRepository>(
                 sp => new CategoryRepositoryEF(
                     sp.GetService<KategorijeContext>())
             );
 
             services.AddMvc();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info
@@ -102,8 +106,8 @@ namespace DIinCore
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("v1/swagger.json", "Olimp API V1");
-                c.OAuthClientId("olimpCrudServiceSwagger");
+                c.SwaggerEndpoint("v1/swagger.json", "MatfRS API V1");
+                c.OAuthClientId("mathRsServiceSwagger");
                 c.OAuthClientSecret("");
                 c.OAuthRealm("");
                 c.OAuthAppName("Swagger UI");

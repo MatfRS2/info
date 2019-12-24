@@ -24,12 +24,6 @@
             OK kod ako je sve OK.
             </returns>
         </member>
-        <member name="T:DIinCore.Controllers.ValuesController">
-            <summary>
-            Kontroler za vrednosti
-            </summary>
-            <seealso cref="T:Microsoft.AspNetCore.Mvc.Controller" />
-        </member>
         <member name="M:DIinCore.Controllers.ValuesController.Get">
             <summary>
             Gets this instance.
@@ -179,9 +173,14 @@
         </member>
         <member name="T:DIinCore.CategoryRepositoryInMemory">
             <summary>
-            Repozitorujum za kategorije 
+            Repozitorijum za kategorije 
             </summary>
             <seealso cref="T:DIinCore.ICategoryRepository" />
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryInMemory.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DIinCore.CategoryRepositoryInMemory"/> class.
+            </summary>
         </member>
         <member name="M:DIinCore.CategoryRepositoryInMemory.GetCategories">
             <summary>
@@ -193,8 +192,30 @@
             <summary>
             Gets the category by identifier.
             </summary>
-            <param name="categoryId">The category identifier.</param>
+            <param name="id">The identifier.</param>
             <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryInMemory.DeleteCategory(System.Int32)">
+            <summary>
+            Deletes the category.
+            </summary>
+            <param name="id">The identifier.</param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryInMemory.InsertCategory(DIinCore.Category)">
+            <summary>
+            Inserts the category.
+            </summary>
+            <param name="kategorija">The kategorija.</param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:DIinCore.CategoryRepositoryInMemory.UpdateCategory(System.Int32,DIinCore.Category)">
+            <summary>
+            Updates the category.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="kategorija">The kategorija.</param>
             <exception cref="T:System.NotImplementedException"></exception>
         </member>
         <member name="T:DIinCore.ICategoryRepository">

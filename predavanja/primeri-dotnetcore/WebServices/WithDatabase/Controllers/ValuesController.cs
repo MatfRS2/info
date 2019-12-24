@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DIinCore.Controllers
 {
+    [Route("api/[controller]")]
     /// <summary>
     /// Kontroler za vrednosti
     /// </summary>
     /// <seealso cref="Microsoft.AspNetCore.Mvc.Controller" />
-    [Route("api/[controller]")]
     public class ValuesController : Controller
     {
         // GET api/values
