@@ -26,7 +26,7 @@ namespace DIinCore.Controllers
 
         /// <summary>
         /// Vraće kategorije.
-        /// Metod radi na sinhroni način.
+        /// Metod radi na asinhroni način.
         /// </summary>
         /// <returns>
         /// OK kod ako je sve OK.
@@ -36,13 +36,13 @@ namespace DIinCore.Controllers
         [ProducesResponseType(typeof(List<Category>), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> Get()
         {
-            List<Category> categories = _categoryRepository.GetCategories();
-            return Ok(categories);
+            Task<List<Category>> categories = _categoryRepository.GetCategoriesAsync();
+            return Ok(await categories);
         }
 
         /// <summary>
         /// Daje detalje za prosledjeni identifikato kategorije.
-        /// Metod radi na sinhroni način.
+        /// Metod radi na asinhroni način.
         /// </summary>
         /// <param name="id">The identifier.</param>
         /// <returns></returns>
@@ -55,15 +55,15 @@ namespace DIinCore.Controllers
         {
             if (id == null)
                 return NotFound();
-            Category kat = _categoryRepository.GetCategoryById(id.GetValueOrDefault());
+            Task<Category> kat = _categoryRepository.GetCategoryByIdAsync(id.GetValueOrDefault());
             if (kat == null)
                 return new StatusCodeResult((int)HttpStatusCode.ResetContent);
-            return Ok(kat);
+            return Ok(await kat);
         }
 
         /// <summary>
         /// Ubacuje zadatu kategoriju među kategorije. 
-        /// Metod radi na sinhroni način.
+        /// Metod radi na asinhroni način.
         /// </summary>
         /// <example>
         /// POST: api/categories
@@ -87,14 +87,14 @@ namespace DIinCore.Controllers
             Category t = new Category();
             t.CategoryName = kat.CategoryName;
             t.CategoryId = 0;
-            _categoryRepository.InsertCategory(t);
+            await _categoryRepository.InsertCategoryAsync(t);
             kat.CategoryId = t.CategoryId;
             return Created("api/[controller]/" + kat.CategoryId, kat);
         }
 
         /// <summary>
         /// Postavlja podatke za zadatu kategoriju. 
-        /// Metod radi na sinhroni način.
+        /// Metod radi na asinhroni način.
         /// </summary>
         /// <example>
         /// PUT: api/categories/5
@@ -107,7 +107,7 @@ namespace DIinCore.Controllers
         /// <response code="204">Postavljanje podataka je uspešno realizovano.</response>
         /// <response code="400">Pokušaj promene podataka za grad nije uspeo.</response>
         /// <response code="500">Greška u procesiranju na serverskoj strani.</response>
-        [HttpPut("{id:int}")]
+        [HttpPut("{id:long}")]
         [ProducesResponseType(typeof(Category), 204)]
         [ProducesResponseType(typeof(string), 400)]
         [ProducesResponseType(typeof(void), 500)]
@@ -117,18 +117,18 @@ namespace DIinCore.Controllers
             {
                 return BadRequest("Pokušaj promene podataka za kategoriju koji ne postoji (pogrešan Id).");
             }
-            Category ent = _categoryRepository.GetCategoryById(id);
+            Category ent = await _categoryRepository.GetCategoryByIdAsync(id);
             if (ent == null)
             {
                 return BadRequest("Id od nepostojeće kategorije!");
             }
-            _categoryRepository.UpdateCategory(id, entitet);
+            await _categoryRepository.UpdateCategoryAsync(id, entitet);
             return NoContent();
         }
 
         /// <summary>
         /// Briše zadatu kategoriju. Kategorija koja će biti izbrisana se određuje preko identifikatora. 
-        /// Metod radi na sinhroni način.
+        /// Metod radi na asinhroni način.
         /// </summary>
         /// <example>
         /// DELETE: api/categories/5
@@ -141,12 +141,12 @@ namespace DIinCore.Controllers
         [HttpDelete("{id:long}")]
         public async Task<IActionResult> Delete(int id)
         {
-            Category ent = _categoryRepository.GetCategoryById(id); ;
+            Category ent = await _categoryRepository.GetCategoryByIdAsync(id); ;
             if (ent == null)
             {
                 return BadRequest("Pokušaj brisanja grada koja ne postoji (pogrešan Id).");
             }
-            _categoryRepository.DeleteCategory(id);
+            await _categoryRepository.DeleteCategoryAsync(id);
             return Ok();
         }
 

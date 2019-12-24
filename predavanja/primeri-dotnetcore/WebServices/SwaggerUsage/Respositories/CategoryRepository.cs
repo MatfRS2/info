@@ -8,8 +8,6 @@ namespace DIinCore
     /// <seealso cref="DIinCore.ICategoryRepository" />
     public class CategoryRepository : ICategoryRepository
     {
-
-
         private List<Category> kategorije = new List<Category>();
 
         /// <summary>
@@ -19,7 +17,8 @@ namespace DIinCore
         {
             kategorije.Add(new Category() { CategoryId = 10, CategoryName = "Košulja" });
             kategorije.Add(new Category() { CategoryId = 11, CategoryName = "Majica" });
-            kategorije.Add(new Category() { CategoryId = 10, CategoryName = "Farmerke" });
+            kategorije.Add(new Category() { CategoryId = 12, CategoryName = "Farmerke" });
+            kategorije.Add(new Category() { CategoryId = 4, CategoryName = "Cipele" });
         }
 
         /// <summary>
@@ -52,11 +51,12 @@ namespace DIinCore
         /// <exception cref="System.NotImplementedException"></exception>
         public void DeleteCategory(int id)
         {
-            int pozicija = 0;
+            int pozicija = -1;
             for (int i = 0; i < kategorije.Count; i++)
                 if (kategorije[i].CategoryId == id)
                     pozicija = i;
-            kategorije.RemoveAt(pozicija);
+            if (pozicija >= 0)
+                kategorije.RemoveAt(pozicija);
         }
 
         /// <summary>

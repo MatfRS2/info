@@ -8,8 +8,6 @@ namespace DIinCore
     /// <seealso cref="DIinCore.ICategoryRepository" />
     public class CategoryRepositoryInMemory : ICategoryRepository
     {
-
-
         private List<Category> kategorije = new List<Category>();
 
         /// <summary>
@@ -52,10 +50,11 @@ namespace DIinCore
         /// <exception cref="System.NotImplementedException"></exception>
         public void DeleteCategory(int id)
         {
-            int pozicija = 0;
+            int pozicija = -1;
             for (int i = 0; i < kategorije.Count; i++)
                 if (kategorije[i].CategoryId == id)
                     pozicija = i;
+            if(pozicija >=0)
             kategorije.RemoveAt(pozicija);
         }
 

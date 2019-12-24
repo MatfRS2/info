@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
   
@@ -7,16 +8,16 @@ namespace DIinCore.Controllers
     [Route("api/Category")]
     public class CategoryController : Controller
     {
-        private ICategoryRepository categoryRepository { get; set; }
+        private ICategoryRepository _categoryRepository;
         public CategoryController(ICategoryRepository categoryRepository)
         {
-            this.categoryRepository = categoryRepository;
+            _categoryRepository = categoryRepository ?? throw new ArgumentNullException(nameof(categoryRepository));
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            List<Category> categories = categoryRepository.GetCategories();
+            List<Category> categories = _categoryRepository.GetCategories();
             return Ok(categories);
         }
     }
