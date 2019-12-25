@@ -19,6 +19,7 @@
         <member name="M:DIinCore.Controllers.CategoriesController.Get">
             <summary>
             Vraće kategorije.
+            Metod radi na sinhroni način.
             </summary>
             <returns>
             OK kod ako je sve OK.
@@ -27,6 +28,7 @@
         <member name="M:DIinCore.Controllers.CategoriesController.Details(System.Nullable{System.Int32})">
             <summary>
             Daje detalje za prosledjeni identifikato kategorije.
+            Metod radi na sinhroni način.
             </summary>
             <param name="id">The identifier.</param>
             <returns></returns>
@@ -34,7 +36,7 @@
         <member name="M:DIinCore.Controllers.CategoriesController.PostAsync(DIinCore.Category)">
             <summary>
             Ubacuje zadatu kategoriju među kategorije. 
-            Metod radi na asinhroni način.
+            Metod radi na sinhroni način.
             </summary>
             <example>
             POST: api/categories
@@ -49,7 +51,7 @@
         <member name="M:DIinCore.Controllers.CategoriesController.Put(System.Int32,DIinCore.Category)">
             <summary>
             Postavlja podatke za zadatu kategoriju. 
-            Metod radi na asinhroni način.
+            Metod radi na sinhroni način.
             </summary>
             <example>
             PUT: api/categories/5
@@ -66,7 +68,7 @@
         <member name="M:DIinCore.Controllers.CategoriesController.Delete(System.Int32)">
             <summary>
             Briše zadatu kategoriju. Kategorija koja će biti izbrisana se određuje preko identifikatora. 
-            Metod radi na asinhroni način.
+            Metod radi na sinhroni način.
             </summary>
             <example>
             DELETE: api/categories/5

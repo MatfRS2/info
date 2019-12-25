@@ -200,3 +200,8 @@ _ReSharper*/
 /predavanja/primeri-dotnetcore/WebServices/WithDatabaseAsync/.vs/Swagger/v16/Server/sqlite3/storage.ide
 /predavanja/primeri-dotnetcore/WebServices/WithDatabaseAsync/.vs/Swagger/v16/Server/sqlite3/db.lock
 /predavanja/primeri-dotnetcore/WebServices/WithDatabaseAsync/.vs/Swagger/DesignTimeBuild/.dtbcache
+/predavanja/primeri-dotnetcore/WebServices/WithDatabaseAsync/WithDatabase.xml
+/predavanja/primeri-dotnetcore/WebServices/WithDatabaseAsyncDockerized/src/.vs/Swagger/DesignTimeBuild/.dtbcache
+/predavanja/primeri-dotnetcore/WebServices/WithDatabaseAsyncDockerized/src/.vs/Swagger/v16/Server/sqlite3/storage.ide
+/predavanja/primeri-dotnetcore/WebServices/WithDatabaseAsyncDockerized/src/.vs/Swagger/v16/Server/sqlite3/db.lock
+*.json
