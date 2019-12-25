@@ -6,10 +6,14 @@ services:
     build:
       context: .
       dockerfile: WithDatabaseAsyncDockerized/src/Dockerfile
+    ports:
+      - "5202:80"
+    networks:
+      - rs2mreza
     depends_on:
-      - mssql-server
+      - mssqlserver
 
-  mssql-server:
+  mssqlserver:
     container_name: mssql-server-container4
     image: microsoft/mssql-server-linux:latest
     volumes:
@@ -20,4 +24,9 @@ services:
       MSSQL_PID:   "Developer"
     ports:
       - "2433:1433"
+    networks:
+      - rs2mreza
 
+networks:
+  rs2mreza:
+    driver: "bridge"
