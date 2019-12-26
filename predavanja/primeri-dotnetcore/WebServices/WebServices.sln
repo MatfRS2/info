@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-database", "03-database"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-async-await", "04-async-await", "{535AC983-F365-4F67-A551-8FD375E5DB3A}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8F404F18-6AA7-4A5A-9A03-0374627E5745}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "WithDatabaseAsyncDockerized\docker-compose.dcproj", "{8F404F18-6AA7-4A5A-9A03-0374627E5745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
