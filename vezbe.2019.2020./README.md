@@ -4,12 +4,6 @@
 
 Овај сајт садржи вежбе за предмет **Развој софтвера 2** на мастер студијама на Математичком факултету.
 
-## Линк ка часу вежби
-
-* Вежбе ће бити одржаване коришћењем [Zoom платформе](https://zoom.us/) према распореду часова. 
-
-* [Линк ка часу вежби.](#)
-
 ## Упутство за студенте
 
 ### Литература
@@ -27,10 +21,8 @@
 * **[Инсталирати GIT](https://git-scm.com/download/win)** за Windows (команде у терминалу су исте као и у Linux системима). 
   [Основне git команде](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html). 
 
-* Опција 1: Инсталирати **[Visual Studio IDE](https://visualstudio.microsoft.com/)** (изабрати Comunity). Након месец дана пробне верзије ће тражити да се обнови лиценца. Само кликнути _update licence_ и добија се лиценца за бесплатно коришћење.
+* Инсталирати **[Visual Studio IDE](https://visualstudio.microsoft.com/)** (изабрати Comunity). Након месец дана пробне верзије ће тражити да се обнови лиценца. Само кликнути _update licence_ и добија се лиценца за бесплатно коришћење.
   Погледати [упутство](https://docs.microsoft.com/en-gb/visualstudio/get-started/csharp/tutorial-aspnet-core-ef-step-01?view=vs-2019).
-
-* Опција 2: Инсталирати **[Visual Studio Code](https://code.visualstudio.com/)**. Инсталирати потребна проширења, на пример [ASP.NET core VS Code Extension Pack](https://marketplace.visualstudio.com/items?itemName=temilaj.asp-net-core-vs-code-extension-pack) или погледати [препоруке](https://marcroussy.com/2018/03/10/top-5-visual-studio-code-extensions-for-dotnetcore/).
   
 * Током инсталације одабрати: _ASP.NET and Web development_ и _.NET Core cross-platform development_.
   Могу се одабрати и друге опције, али ове су неопходне.
@@ -48,12 +40,42 @@
 
 ## Вежбе
 
-### **I и II час** -- Упознавање
+### **I час** -- Упознавање са C\#
 
-* Основне информације о курсу, начину рада и начину полагања.
-* Инсталације, рад у `Visual Studio`
+* Инсталације, рад у `Visual Studio Code`
 * [_C#_ -- основе](./01_cas/README.md) 
-* [Снимак са часа](#)
+
+### **II час** -- Упознавање са `ASP.NET Core MVC`, рад са _Razor_ страницама
+
+* [Пример](./02_cas/README.md)
+
+### **III час** -- Креирање веб продавнице, повезивање са `SQL Serverom`, стилизовање
+
+* [Пример](./03_cas/README.md) -- Креирање веб продавнице
+
+### **IV час** --  Промене у приказу веб продавнице
+
+* [Пример](./04_cas/README.md) --  Креирање _tag-helper_-a и основе тестирања
+
+### **V час** 
+
+* [Пример](./05_cas/README.md) --  Стилизовање _tag-helper_-a и додавање парцијалног погледа
+
+### **VI час** -- Додавање навигације и корпе
+
+* [Пример](./06_cas/README.md) -- Рад са _ViewComponent_, мењање приказа рута и рад са сесијама
+
+### **VII час** -- Завршетак корпе и памћење поруџбина
+
+* [Пример](./07_cas/README.md) -- Додавање функционалности корпи, регистровање сервиса и _Dependency Injection_, измене базе, _Model Binding_ и _Data Anotations_
+
+### **VIII IX час** -- _CRUD_ операције над производима, администрација и ауторизација
+
+* [Пример](./08_09_cas/README.md) -- Креирање CRUD за производе, рад са фајловима, асихроне методе, Identity и ауторизација
+
+### **X час** -- Додавање могућности четовања за кориснике
+
+* [Пример](./10_cas/README.md) -- _SignalR_
 
 
 [РС 2](../README.md)
