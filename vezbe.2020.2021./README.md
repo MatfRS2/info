@@ -55,6 +55,7 @@
 * [_C#_ -- основе](./01_cas/README.md) 
 * [Снимак са часа -- основне информације, инсталације итд.](http://enastava.matf.bg.ac.rs/~danijela/RS2/01_cas/RS2_uvod)
 * [Снимак са часа -- увод у C#](http://enastava.matf.bg.ac.rs/~danijela/RS2/01_cas/Cas1_deo1.avi)
+* [Снимак са часа -- увод у C#, наставак](http://enastava.matf.bg.ac.rs/~danijela/RS2/02_cas/Cas2.mp4)
 
 
 [РС 2](../README.md)
