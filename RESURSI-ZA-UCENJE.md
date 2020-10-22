@@ -18,9 +18,11 @@
 
         * Peters L.: [Getting Results from Software Development Teams](https://www.oreilly.com/library/view/getting-results-from/9780735623460/){:target="_blank"} - Microsoft Press, 2008.
 
-        * [Lessons From a Decade of IT Failures](https://spectrum.ieee.org/static/lessons-from-a-decade-of-it-failures?utm_campaign=Weekly%20Notification-%20IEEE%20Spectrum%20Tech%20Alert&utm_source=boomtrain&utm_medium=email&utm_term=555a972628fbca1d260da1ba&utm_content=Lessons%20From%20a%20Decade%20of%20IT){:target="_blank"} - IEEE Spectrum, [кеширано](/predavanja/literatura/softverske-greske/README.md){:target="_blank"}
+        * [Why Software Fails](https://spectrum.ieee.org/computing/software/why-software-fails){:target="_blank"} - IEEE Spectrum
 
-        * [Software Engineering Tutorial](https://www.tutorialspoint.com/software_engineering/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Engineering.pdf){:target="_blank"}
+        * [Lessons From a Decade of IT Failures](https://spectrum.ieee.org/static/lessons-from-a-decade-of-it-failures?utm_campaign=Weekly%20Notification-%20IEEE%20Spectrum%20Tech%20Alert&utm_source=boomtrain&utm_medium=email&utm_term=555a972628fbca1d260da1ba&utm_content=Lessons%20From%20a%20Decade%20of%20IT){:target="_blank"} - IEEE Spectrum, [кеширано](./predavanja/literatura/softverske-greske/README.md){:target="_blank"}
+
+        [comment]: # (* * [Software Engineering Tutorial](https://www.tutorialspoint.com/software_engineering/index.htm){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint Software Engineering.pdf){:target="_blank"} *)
 
 1. Књиге, чланци и упутства за **Агилну методологију** развоја софтвера  
 

@@ -14,4 +14,6 @@
 
 * Развојно окружење [Visual Studio Code](https://code.visualstudio.com/download){:target="_blank"}
 
+* Развојно окружење [Visual Studio](https://visualstudio.microsoft.com/downloads/){:target="_blank"}
+
 [РС 2](/README.md)
