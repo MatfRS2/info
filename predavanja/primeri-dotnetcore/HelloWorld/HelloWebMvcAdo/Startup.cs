@@ -33,7 +33,8 @@ namespace HelloWebMvcAdo
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc(options => options.EnableEndpointRouting = false).SetCompatibilityVersion(
+                CompatibilityVersion.Version_2_1);
             services.Add(new ServiceDescriptor(typeof(ProbaContext), 
                 new ProbaContext(Configuration.GetConnectionString("ProbaConnection"))));
         }
