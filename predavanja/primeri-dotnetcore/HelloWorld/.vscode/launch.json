@@ -9,7 +9,7 @@
        "type": "coreclr",
        "request": "launch",
        "preLaunchTask": "build",
-       "program": "${workspaceFolder}/HelloConsole/bin/Debug/netcoreapp2.1/HelloConsole.dll",
+       "program": "${workspaceFolder}/HelloWebMvcAdo/bin/Debug/netcoreapp3.1/HelloWebMvcAdo.dll",
        "args": [],
        "cwd": "${workspaceFolder}",
        "stopAtEntry": false,
