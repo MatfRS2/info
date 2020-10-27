@@ -1,0 +1,25 @@
+CREATE DATABASE Proba
+GO
+
+SELECT Name from sys.Databases
+GO
+
+USE Proba
+GO
+
+
+
+CREATE TABLE [dbo].[Drzava](
+	[Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[Naziv] [nvarchar](100) NULL,
+ CONSTRAINT [PK_Drzava] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+
+
+
