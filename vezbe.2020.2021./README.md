@@ -39,7 +39,7 @@
 
 * Инсталираи **[SQL Server](https://www.microsoft.com/en-ie/sql-server/sql-server-downloads)**. Бесплатне опције су Express и Development. Development има готово све могућности које нуди Enterprise, али није могуће користити за апликације које желимо да пустимо у рад. Са друге стране уз Express je могуће пустити у рад апликацјиу али нуди много мање опција.
 
-* _SQL Server_: Поред администратора добро би било направити неког корисника који може да додаје/брише базе (и у њима додаје/брише табеле, податке итд.), али нема сва администраторска права. Такође, обратити пажњу на подешавања сервера јер је могуће да као подразумевану опцију дозвољава само логовоња коришћењем _windows login_. Могуће је променити опције, прочитати више [овде](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/change-server-authentication-mode?redirectedfrom=MSDN&view=sql-server-ver15).
+* _SQL Server_: Поред администратора добро би било направити неког корисника који може да додаје/брише базе (и у њима додаје/брише табеле, податке итд.), али нема сва администраторска права. Такође, обратити пажњу на подешавања сервера јер је могуће да као подразумевану опцију дозвољава само логовaња коришћењем _windows login_. Могуће је променити опције, прочитати више [овде](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/change-server-authentication-mode?redirectedfrom=MSDN&view=sql-server-ver15).
 
 * Да би лакше администрирали сервер и мењали базу добро би било инсталирати помоћне алате. На пример:
 	* [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
@@ -56,6 +56,11 @@
 * [Снимак са часа -- основне информације, инсталације итд.](http://enastava.matf.bg.ac.rs/~danijela/RS2/01_cas/RS2_uvod)
 * [Снимак са часа -- увод у C#](http://enastava.matf.bg.ac.rs/~danijela/RS2/01_cas/Cas1_deo1.avi)
 * [Снимак са часа -- увод у C#, наставак](http://enastava.matf.bg.ac.rs/~danijela/RS2/02_cas/Cas2.mp4)
+
+### **III час** -- Креирање веб продавнице, повезивање са `SQL Serverom`, стилизовање
+
+* [Пример](./03_cas/README.md) -- Креирање веб продавнице
+* [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/03_cas/Cas3.mp4)
 
 
 [РС 2](../README.md)
