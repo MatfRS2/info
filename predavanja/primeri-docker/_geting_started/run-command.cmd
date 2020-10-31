@@ -1,0 +1,1 @@
+docker run -d -p 7080:80 docker/getting-started
