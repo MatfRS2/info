@@ -1,0 +1,24 @@
+﻿@model Proizvod[]
+
+@{ 
+    ViewBag.Naslov = "Niz proizvoda";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Ime</th><th>Cena</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Proizvod p in Model)
+        {
+        <tr>
+            <td>
+                @p.Ime
+            </td>
+            <td> @p.Cena </td>
+        </tr>
+        }
+    </tbody>
+</table>
