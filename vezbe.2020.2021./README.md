@@ -63,4 +63,11 @@
 * [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/03_cas/Cas3.mp4)
 
 
+### **IV час** -- Додавање пагинације и `tag_helpera`, парцијални погледи, рад са компонентама
+
+* [Пример](./04_cas/README.md) -- Наставак унапређивања веб продавнице
+* [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/04_cas/Cas4.mp4)
+
+
+
 [РС 2](../README.md)
