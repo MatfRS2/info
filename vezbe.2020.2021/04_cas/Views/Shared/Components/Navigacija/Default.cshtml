@@ -1,0 +1,19 @@
+﻿@model NavigacijaViewModel
+
+<a class="btn btn-outline-info btn-block"
+   asp-controller="Proizvod"
+   asp-action="Spisak"
+   asp-route-kategorija=""
+   asp-route-Strana="1"
+   >Početna</a>
+
+@foreach(string s in Model.Kategorije)
+{
+    <a class= "btn btn-block
+       @(s == Model.TrenutnaKategorija ? "btn-info" : "btn-outline-info")"
+       asp-controller="Proizvod"
+       asp-action="Spisak"
+       asp-route-Strana="1"
+       asp-route-kategorija="@s"
+       >@s  </a>
+}
