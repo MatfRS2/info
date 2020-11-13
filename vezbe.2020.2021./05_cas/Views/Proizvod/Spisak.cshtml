@@ -1,0 +1,17 @@
+﻿@model SpisakViewModel
+
+@{ 
+    ViewBag.Naslov = "Spisak";
+}
+
+<h2>Spisak</h2>
+
+@foreach (var p  in Model.Proizvodi)
+{
+    <partial name="Shared/ProizvodIspis.cshtml" for="@p" />
+}
+
+<div model-strane="@Model.ModelStrane" akcija="Spisak"
+     page-class ="btn" page-class-neoznaceno ="btn-outline-primary"
+     page-class-selektovano ="btn-primary"
+     ></div>

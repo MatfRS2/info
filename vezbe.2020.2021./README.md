@@ -68,6 +68,11 @@
 * [Пример](./04_cas/README.md) -- Наставак унапређивања веб продавнице
 * [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/04_cas/Cas4.mp4)
 
+### **V час** -- Додавање корпе, сесије, json
+
+* [Пример](./05_cas/README.md) -- Наставак унапређивања веб продавнице
+* [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/05_cas/Cas5.mp4)
+
 
 
 [РС 2](../README.md)
