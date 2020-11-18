@@ -28,5 +28,11 @@
 
 [Снимак предавања од 05.11.2020. (други час)](https://youtu.be/K4P460F1NqM){:target="_blank"}
 
+### Пета сесија
+
+[Снимак предавања од 12.11.2020. (први час)](https://youtu.be/BQsAOER-tLg){:target="_blank"}
+
+[Снимак предавања од 12.11.2020. (други час)](https://youtu.be/hMtRTVhM5Jk){:target="_blank"}
+
 
 [РС 2](../../README.md) [Предавања](../README.md)
