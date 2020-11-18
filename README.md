@@ -36,7 +36,7 @@
 
 * **[Часови предавања уживо](/predavanja/casovi-uzivo/README.md)**
 
-* **[Вежбе](https://matfrs2.github.io/RS2/Vezbe-2020-2021)**
+* **[Вежбе](https://matfrs2.github.io/Vezbe-2020-2021/)**
 
 ## Семинарски радови и испити
 
