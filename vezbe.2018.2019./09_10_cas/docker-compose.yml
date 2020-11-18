@@ -1,9 +1,0 @@
-version: "3"
-services:
-  database:
-    image: "microsoft/mssql-server-linux:2017-latest"
-    ports:
-      - 5100:1433
-    environment:
-      - ACCEPT_EULA=Y
-      - SA_PASSWORD=Dunja06Dejan$$

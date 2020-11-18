@@ -1,9 +1,0 @@
-{
-  "name": "prodavnicakozmetike",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "latest",
-    "fontawesome": "latest",
-    "components-font-awesome": "^5.0.6"
-  }
-}
