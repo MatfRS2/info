@@ -46,4 +46,10 @@
 
 [Снимак предавања од 26.11.2020. (други час)](https://youtu.be/kbTCK7mKcdk){:target="_blank"}
 
+### Осма сесија
+
+[Снимак предавања од 03.12.2020. (први час)](https://youtu.be/dtGQu1uN7n0){:target="_blank"}
+
+[Снимак предавања од 03.12.2020. (други час)](https://youtu.be/lrq4iUGOT1o){:target="_blank"}
+
 [РС 2](../../README.md) [Предавања](../README.md)
