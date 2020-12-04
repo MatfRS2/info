@@ -34,7 +34,7 @@
 
 * **[Предавања](/predavanja/README.md)**
 
-* **[Часови предавања уживо](/predavanja/casovi-uzivo/README.md)**
+* **[Снимци одржаних предавања](/predavanja/casovi-uzivo/README.md)**
 
 * **[Вежбе, академска година 2020/2021](https://matfrs2.github.io/Vezbe-2020-2021/vezbe.2020.2021)**
 
