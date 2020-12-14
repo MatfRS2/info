@@ -32,9 +32,9 @@
 
 ## Настава
 
-* **[Предавања](/predavanja/README.md)**
+* **[Предавања](/predavanja/README-2020-21.md)**
 
-* **[Снимци одржаних предавања](/predavanja/casovi-uzivo/README.md)**
+* **[Снимци одржаних предавања](/predavanja/casovi-uzivo/README-2020-21.md)**
 
 * **[Вежбе](https://matfrs2.github.io/Vezbe-2020-2021/vezbe.2020.2021)**
 
