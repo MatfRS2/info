@@ -16,12 +16,6 @@
 
 [comment]: # (* **[Информације о вежбама](/vezbe/info/README.md)**)
 
-## Линк ка часу вежби
-
-* Вежбе ће бити одржаване коришћењем [Webex платформе](https://www.webex.com/) према распореду часова (уторак, 9.15, Н сале, 201). 
-
-* [Линк ка часу вежби.](https://matf.webex.com/matf/j.php?MTID=mf494ee298a213454afee69b11437b3ba). Шифра за приступ часу: **razvojsoftvera2**.
-
 ## Информације о курсу
 
 * **[Основне информације](/informacije/README-2020-21.md)**
@@ -34,13 +28,17 @@
 
 * **[Предавања](/predavanja/README-2020-21.md)**
 
-* **[Снимци одржаних предавања](/predavanja/casovi-uzivo/README-2020-21.md)**
+* **[Часови предавања уживо](/predavanja/casovi-uzivo/README-2020-21.md)**
 
 * **[Вежбе](https://matfrs2.github.io/Vezbe-2020-2021/vezbe.2020.2021)**
 
-* **[Вежбе, академска година 2019/2020](https://matfrs2.github.io/Vezbe-2020-2021/stari_materijali/vezbe.2019.2020)**
+* **[Часови вежби уживо](/vezbe/casovi-uzivo/README-2020-21.md)**
 
-* **[Вежбе, академска година 2018/2019](https://matfrs2.github.io/Vezbe-2020-2021/stari_materijali/vezbe.2018.2019)**
+* **Настава у претходним академским годинама** 
+
+  * **[Вежбе, академска година 2019/2020](https://matfrs2.github.io/Vezbe-2020-2021/stari_materijali/vezbe.2019.2020)**
+
+  * **[Вежбе, академска година 2018/2019](https://matfrs2.github.io/Vezbe-2020-2021/stari_materijali/vezbe.2018.2019)**
 
 ## Семинарски радови и испити
 
