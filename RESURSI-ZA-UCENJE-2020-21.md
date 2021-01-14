@@ -140,11 +140,13 @@
 
     * Примарна литература
 
-        * De la Torre C.: [Modernize Existing .NET applications with Azure cloud and Windows Containers](https://docs.microsoft.com/en-us/dotnet/standard/modernize-with-azure-and-containers/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/De la Torre C. - Modernize Existing .NET applications with Azure cloud and Windows Containers.pdf){:target="_blank"}
-
         * De la Torre C. et al.: [.NET Microservices. Architecture for Containerized .NET Applications, 2nd Edition](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/De la Torre C. et al. - .NET Microservices. Architecture for Containerized .NET Applications, 2nd Edition.pdf){:target="_blank"}
 
+        * [.NET Microservices: Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/){:target="_blank"}, [.pdf](/predavanja/literatura/Microsoft team - .NET Microservices Architecture for Containerized .NET Applications.pdf){:target="_blank"}
+
     * Додатна литература (књиге)
+
+        * De la Torre C.: [Modernize Existing .NET applications with Azure cloud and Windows Containers](https://docs.microsoft.com/en-us/dotnet/standard/modernize-with-azure-and-containers/){:target="_blank"} - Microsoft Press, 2018, [.pdf](/predavanja/literatura/De la Torre C. - Modernize Existing .NET applications with Azure cloud and Windows Containers.pdf){:target="_blank"}
 
         * De la Torre C.: [Containerized Docker Application Lifecycle with Microsoft Platform and Tools](https://blogs.msdn.microsoft.com/microsoft_press/2016/12/07/free-ebook-containerized-docker-applications-lifecycle-with-microsoft-tools-and-platform/){:target="_blank"} - Microsoft Press, 2016, [.pdf](/predavanja/literatura/De la Torre C. - Containerized Docker Application Lifecycle with Microsoft Platform and Tools.pdf){:target="_blank"}
 
