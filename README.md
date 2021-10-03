@@ -30,21 +30,15 @@
 
 * **[Часови предавања уживо](/predavanja/casovi-uzivo/README-2020-21.md)**
 
-* **[Вежбе](https://matfrs2.github.io/Vezbe-2020-2021/vezbe.2020.2021)**
+* **[Вежбе (2021/22)](https://matfrs2.github.io/vezbe/README.md)**
 
-* **[Часови вежби уживо](/vezbe/casovi-uzivo/README-2020-21.md)**
-
-* **Настава у претходним академским годинама** 
-
-  * **[Вежбе, академска година 2019/2020](https://matfrs2.github.io/Vezbe-2020-2021/stari_materijali/vezbe.2019.2020)**
-
-  * **[Вежбе, академска година 2018/2019](https://matfrs2.github.io/Vezbe-2020-2021/stari_materijali/vezbe.2018.2019)**
+* **[Часови вежби онлајн (2021/22)](/vezbe/casovi-uzivo/README.md)**
 
 ## Семинарски радови и испити
 
 * **[Семинарски радови](/seminarski-radovi/README.md)**
 
-* **[Писмени испити, академска година 2018-2019](/pismeni-ispiti/README.md)**
+<!-- * **[Писмени испити, академска година 2018-2019](/pismeni-ispiti/README.md)** -->
 
 * **[Усмени испити](/usmeni-ispiti/README.md)**
 
