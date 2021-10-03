@@ -1,6 +1,6 @@
 # РС2 - Информације које се односе на часове вежби онлајн
 
-[РС 2](../../README.md)
+[РС 2](../../README.md) [Вежбе](../README.md)
 
 # Часови вежби онлајн
 
@@ -11,7 +11,7 @@
     - Meeting number (access code): 2398 354 9667
     - Meeting password: qkCm7TYc3y4
 
-[РС 2](../../README.md)
+[РС 2](../../README.md) [Вежбе](../README.md)
 
 ---
 
