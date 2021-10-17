@@ -16,6 +16,8 @@
 
 * Развојно окружење [Visual Studio](https://visualstudio.microsoft.com/downloads/){:target="_blank"}
 
+* Библиотека [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client){:target="_blank"}
+
 [РС 2](/README.md)
 
 ---
