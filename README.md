@@ -22,15 +22,15 @@
 
 * **[Основне информације](/informacije/README-2021-22.md)**
 
-* **[Инсталације](/INSTALACIJE-2020-21.md)**
+* **[Инсталације](/INSTALACIJE-2021-22.md)**
 
-* **[Ресурси за учење](/RESURSI-ZA-UCENJE-2020-21.md)**
+* **[Ресурси за учење](/RESURSI-ZA-UCENJE-2021-22.md)**
 
 ## Настава
 
-* **[Предавања](/predavanja/README-2020-21.md)**
+* **[Предавања](/predavanja/README-2021-22.md)**
 
-* **[Часови предавања уживо](/predavanja/casovi-uzivo/README-2020-21.md)**
+* **[Претходно снимљени часови предавања](/predavanja/casovi-uzivo/README-2021-22.md)**
 
 * **[Вежбе (2021/22)](./vezbe/)**
 
