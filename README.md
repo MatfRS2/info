@@ -12,6 +12,8 @@
 
 <!-- **[Резултати усменог дела испита у року Јун 1](/usmeni-ispiti/info/2019.06.29-RS2.pdf){:target="_blank"}** -->
 
+**[Формулар за пријављивање пројеката](/seminarski-radovi/info/README.md)** 
+
 **[Адреса за праћење предавања](/predavanja/info/README.md)** 
 
 ## Информације о курсу
