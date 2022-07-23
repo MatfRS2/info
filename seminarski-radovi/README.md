@@ -66,7 +66,7 @@
 
 ### 2021/22. година
 
-- [Projektor](https://github.com/VladimirV99/Projektor){:target="\_blank"}
+- [Projektor](https://github.com/MatfRS2/2021-22-Projektor){:target="\_blank"}
 
 Напомена: _Почевши од 2021/22. године, садржај часова вежби на курсу је значајно промењен, чиме су се променила и очекивања од пројеката у односу на претходне академске године._
 
