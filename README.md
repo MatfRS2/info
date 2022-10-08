@@ -28,7 +28,7 @@
 
 * **[Предавања](/predavanja/README.md)**
 
-* **[Претходно снимљени часови предавања](/predavanja/casovi-uzivo/README-2021-22.md)**
+* **[Снимци одржаних предавања, академска 2020/21](/predavanja/casovi-uzivo/README-2021-22.md)**
 
 - **[Вежбе (2021/22)](./vezbe/)**
 
