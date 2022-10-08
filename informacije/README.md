@@ -34,7 +34,7 @@
 
 * проф. др Владимир Филиповић: уторком од 15 часова (он-лајн). Обавезно се јавити путем e-поште барем 24 сата раније.
 
-* Никола Ајзенхамер: [овде](https://cloud.ristovic.net/index.php/apps/appointments/pub/YR2YqtUXzVk%3D/form){:target="_blank"}
+* Иван Ристовић: [овде](https://cloud.ristovic.net/index.php/apps/appointments/pub/YR2YqtUXzVk%3D/form){:target="_blank"}
 
 ## Статусне информације
 
