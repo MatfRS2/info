@@ -188,7 +188,7 @@
 
 2.16.4. Слогови и наслеђивање
 
-- [Примери](https://github.com/MatfRS2/primeri-predavanja){:target="_blank"}
+- [Примери](https://github.com/MatfRS2/primeri-predavanja-2021-22){:target="_blank"}
 
 ---
 
