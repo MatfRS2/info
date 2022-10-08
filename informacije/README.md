@@ -6,7 +6,7 @@
 
 * Наставник: **[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}**
 
-* Асистент: **[Никола Ајзенхамер](https://matf.nikolaajzenhamer.rs/){:target="_blank"}**
+* Асистент: **[Иван Ристовић](https://matf.ristovic.net/){:target="_blank"}**
 
 ## План и програм курса
 
@@ -34,7 +34,7 @@
 
 * проф. др Владимир Филиповић: уторком од 15 часова (он-лајн). Обавезно се јавити путем e-поште барем 24 сата раније.
 
-* Никола Ајзенхамер: [овде](https://matf.nikolaajzenhamer.rs//2021/10/02/nastava-u-zimskom-semestru){:target="_blank"}
+* Иван Ристовић: [овде](https://cloud.ristovic.net/index.php/apps/appointments/pub/YR2YqtUXzVk%3D/form){:target="_blank"}
 
 ## Статусне информације
 
@@ -55,6 +55,8 @@
   *[др Данијела Симић](http://poincare.matf.bg.ac.rs/~danijela/){:target="_blank"}*
 
   *[Никола Ајзенхамер](https://matf.nikolaajzenhamer.rs/){:target="_blank"}*
+  
+  *[Иван Ристовић](https://matf.ristovic.net/){:target="_blank"}*
 
 [РС 2](../README.md)
 
