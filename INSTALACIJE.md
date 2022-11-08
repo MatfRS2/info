@@ -4,7 +4,7 @@
 
 Овде су постављене везе за довлачење софтвера који треба инсталирати ради успешног рада на курсу **Razvoj softvera 2**.
 
-* Систем за контролу верзија [Github](https://github.com/){:target="_blank"}, заснован на вебу
+* Систем за контролу верзија [GitHub](https://github.com/){:target="_blank"}, заснован на вебу
 
 * Алат за рад са контејнерима [Docker](https://www.docker.com/products/docker-app){:target="_blank"}
 
