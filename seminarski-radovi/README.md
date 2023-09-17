@@ -64,11 +64,20 @@
 
 ## Списак одобрених тимских пројеката у претходним академским годинама (листe су уређене по абецедном редоследу)
 
+### 2022/23. година
+
+- [API Gateway](https://github.com/luka-j/matf-rs2-api-gateway){:target="\_blank"}
+- [ConSpace](https://github.com/AnaNika10/ConSpace){:target="\_blank"}
+- [CoWorkSpace](https://github.com/MatfRS2/2021-22-Projektor){:target="\_blank"}
+- [MATFaurant](https://github.com/lucijamilicic/rs2){:target="\_blank"}
+- [Slagalica](https://github.com/milicagnjatovic/Slagalica){:target="\_blank"}
+- [Volunteer Hub](https://github.com/PetarZecevic97/volunteer-hub){:target="\_blank"}
+
 ### 2021/22. година
 
 - [e-library](https://github.com/MatfRS2/Seminarski-2021-22-e-library){:target="\_blank"}
 - [EatRoom](https://github.com/MatfRS2/Seminarski-2021-22-EatRoom){:target="\_blank"}
-- [Movie Tickets Booking](https://github.com/MatfRS2/Seminarski-2021-22-MovieBookingRS2){:target="\_blank"}
+- [Movie Tickets Booking](https://github.com/aletrailo/rs2-project){:target="\_blank"}
 - [Projektor](https://github.com/MatfRS2/2021-22-Projektor){:target="\_blank"}
 
 Напомена: _Почевши од 2021/22. године, садржај часова вежби на курсу је значајно промењен, чиме су се променила и очекивања од пројеката у односу на претходне академске године._
