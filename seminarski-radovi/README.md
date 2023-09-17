@@ -68,7 +68,7 @@
 
 - [API Gateway](https://github.com/luka-j/matf-rs2-api-gateway){:target="\_blank"}
 - [ConSpace](https://github.com/AnaNika10/ConSpace){:target="\_blank"}
-- [CoWorkSpace](https://github.com/MatfRS2/2021-22-Projektor){:target="\_blank"}
+- [CoWorkSpace](https://github.com/aletrailo/rs2-project){:target="\_blank"}
 - [MATFaurant](https://github.com/lucijamilicic/rs2){:target="\_blank"}
 - [Slagalica](https://github.com/milicagnjatovic/Slagalica){:target="\_blank"}
 - [Volunteer Hub](https://github.com/PetarZecevic97/volunteer-hub){:target="\_blank"}
