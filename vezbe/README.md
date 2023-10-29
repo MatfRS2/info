@@ -8,6 +8,8 @@
 
 - [Уводна презентација о курсу](./o-kursu.pdf)
 - [Репозиторијум са кодовима](https://github.com/MatfRS2/Vezbe-2023-2024){:target="_blank"}
+- [Виртуелна машина] ускоро
+- [Снимци вежби (школска година 2021/2022)](https://www.youtube.com/playlist?list=PL-Q7IuvfMEZwmSUJ4z65yyyWgXBgHBoiW){:target="_blank"}
 
 ## Садржај вежби
 
@@ -15,13 +17,15 @@
     - Теме:
         - Микросервиси
         - .NET 7 развојни оквир; Web API пројекти
-        - JetBrains Rider окружење за развој
+        - Visual Studio окружење за развој
         - Повезивање на MongoDB СУБП
         - Контејнеризација микросервиса и екстерних ресурса: Docker
     - Микросервиси:
         - Catalog
     - [Поглавље о микросервисима из скрипте у припреми.](./ukratko-o-mikroservisima.pdf)
     - [Белешке](./beleske.pdf#page=3)
+	- [Помоћ за инсталацију ресурса](./pomoc-za-instalaciju.pdf)
+	- [Кратак туторијал за Докер](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
 
 1. Вишеструки микросервиси и кеширање података
     - Теме:
