@@ -6,8 +6,8 @@
 
 * Наставник: **[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}**
 
-* Асистент: **[Иван Ристовић](https://matf.ristovic.net/){:target="_blank"}**
-
+* Асистент: **[Дара Милојковић](http://poincare.matf.bg.ac.rs/~dara.milojkovic/){:target="_blank"}**
+ <!-- **[Иван Ристовић](https://matf.ristovic.net/){:target="_blank"}**-->
 ## План и програм курса
 
 * **[Званичан план и програм курса](R390_-_Razvoj_softvera_2.pdf){:target="_blank"}**
