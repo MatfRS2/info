@@ -8,7 +8,7 @@
 
 - [Уводна презентација о курсу](./o-kursu.pdf)
 - [Репозиторијум са кодовима](https://github.com/MatfRS2/Vezbe-2023-2024){:target="_blank"}
-- [Виртуелна машина] ускоро
+- [Виртуелна машина](http://enastava.matf.bg.ac.rs/~dara.milojkovic/Win10RS2.zip){:target="_blank"}
 - [Снимци вежби (школска година 2021/2022)](https://www.youtube.com/playlist?list=PL-Q7IuvfMEZwmSUJ4z65yyyWgXBgHBoiW){:target="_blank"}
 
 ## Садржај вежби
