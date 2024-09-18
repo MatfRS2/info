@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pismeni-ispiti", "pismeni-ispiti", "{F2A2509C-F978-463B-959F-60DBC0E9BB75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zadaci", "zadaci", "{AC9072DB-25E3-4EBE-91BF-374C83E54131}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "februar2019_resenje", "februar2019_resenje", "{32013908-C4BF-4CDC-AA04-590C24608A25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontroleri", "pismeni-ispiti\zadaci\februar2019_resenje\Kontroleri\Kontroleri.csproj", "{AEC40E50-5C4E-44F0-A051-9887415C5F50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "januar2019_resenje", "januar2019_resenje", "{6515DAEE-EFD8-41D6-9EA9-CBC9C2202924}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterTeme", "pismeni-ispiti\zadaci\januar2019_resenje\MasterTeme\MasterTeme.csproj", "{56DC1954-D7F9-44B2-8766-F36B2198A026}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEC40E50-5C4E-44F0-A051-9887415C5F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC40E50-5C4E-44F0-A051-9887415C5F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC40E50-5C4E-44F0-A051-9887415C5F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC40E50-5C4E-44F0-A051-9887415C5F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DC1954-D7F9-44B2-8766-F36B2198A026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DC1954-D7F9-44B2-8766-F36B2198A026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DC1954-D7F9-44B2-8766-F36B2198A026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DC1954-D7F9-44B2-8766-F36B2198A026}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC9072DB-25E3-4EBE-91BF-374C83E54131} = {F2A2509C-F978-463B-959F-60DBC0E9BB75}
+		{32013908-C4BF-4CDC-AA04-590C24608A25} = {AC9072DB-25E3-4EBE-91BF-374C83E54131}
+		{AEC40E50-5C4E-44F0-A051-9887415C5F50} = {32013908-C4BF-4CDC-AA04-590C24608A25}
+		{6515DAEE-EFD8-41D6-9EA9-CBC9C2202924} = {AC9072DB-25E3-4EBE-91BF-374C83E54131}
+		{56DC1954-D7F9-44B2-8766-F36B2198A026} = {6515DAEE-EFD8-41D6-9EA9-CBC9C2202924}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2BEF5FB-7B05-4278-B2DF-A6D80C04D8CF}
+	EndGlobalSection
+EndGlobal
