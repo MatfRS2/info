@@ -74,9 +74,21 @@
 
 ### 2023/24. година
 
-- [Hotels](https://github.com/bojaanaa11/RS2_project_Hotels){:target="\_blank"}
+- [Cinemax](https://github.com/zdavid01/cinemax/){:target="\_blank"}
+- [FitPlusPlus](https://github.com/sntntn/FitPlusPlus){:target="\_blank"}
+- [Ludus](https://github.com/milicak33/Ludus){:target="\_blank"}
+- [MATF-drustvena-mreza](https://github.com/neske99/MATF-drustvena-mreza){:target="\_blank"}
+- [MATForum](https://github.com/igorpaunovic/MatForum){:target="\_blank"}
+- [Mocktail](github.com/RogovGreg/mocktail){:target="\_blank"}
+- [Personal Finance](https://github.com/misikori/Personal-Finance){:target="\_blank"}
+- [Planinarske ture](https://github.com/ste1drag/Planinarske-ture){:target="\_blank"}
+- [SciConnect](https://github.com/RS2-Crew/SciConnect){:target="\_blank"}
+
+### 2023/24. година
+
 - [DormService](https://github.com/dnestorovic/DormService){:target="\_blank"}
 - [FitPlusPlus](https://github.com/lazars01/FitPlusPlus){:target="\_blank"}
+- [Hotels](https://github.com/bojaanaa11/RS2_project_Hotels){:target="\_blank"}
 
 ### 2022/23. година
 
