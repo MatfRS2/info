@@ -6,7 +6,7 @@
 
 * Наставник: **[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}**
 
-* Асистент: **[Дара Милојковић](http://poincare.matf.bg.ac.rs/~dara.milojkovic/){:target="_blank"}**
+* Асистент: **[Иван Ристовић](https://matf.ristovic.net){:target="_blank"}**
 
 ## План и програм курса
 
