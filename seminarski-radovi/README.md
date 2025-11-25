@@ -68,11 +68,9 @@
 
 - [Пројекти/пренето] (https://docs.google.com/spreadsheets/d/1syNDTZX4Gqi1fVi7c03lb679JD6EXTbLKqz6j36_Oc8/edit?usp=sharing)
 
-
-
 ## Списак одобрених тимских пројеката у претходним академским годинама (листe су уређене по абецедном редоследу)
 
-### 2023/24. година
+### 2024/25. година
 
 - [Cinemax](https://github.com/zdavid01/cinemax/){:target="\_blank"}
 - [FitPlusPlus](https://github.com/sntntn/FitPlusPlus){:target="\_blank"}
