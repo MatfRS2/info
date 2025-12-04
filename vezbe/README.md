@@ -34,6 +34,16 @@
         - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"}
         - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
 
+1. Контејнеризација микросервиса
+    - Теме:
+        - Развој каталога веб продавнице
+        - Контејнеризација микросервиса: Dockerfile
+    - Микросервиси:
+        - Catalog API
+    - [Белешке](./beleske.pdf#page=3)
+        - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"}
+        - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
+
 <!-- 1. Вишеструки микросервиси и кеширање података -->
 <!--     - Теме: -->
 <!--         - Redis -->
