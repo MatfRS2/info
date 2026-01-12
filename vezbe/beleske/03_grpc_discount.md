@@ -145,9 +145,9 @@
 # Discount.API coding
 
 - Coding:
-  - Controllers
+  - Controllers/
     - CouponController.cs
-  - launchSettings.Development.json
+  - appSettings.Development.json
   - Program.cs
 
 - Testing:
@@ -218,10 +218,10 @@
   - `greet.proto`
   - `GreeterService`
 - Coding:
-  - Protos
+  - Protos/
     - `coupon.proto`
     - Properties > Build action > Protobuf
-  - Services
+  - Services/
     - CouponService.cs (just blank file)
 - Map `CouponService` in `Program.cs` instead
   of the default `GreeterService`
@@ -268,3 +268,141 @@
       ports:
         - "8003:8080"
   ```
+
+# Extending Basket with gRPC
+
+- Install:
+  - `Grpc.AspNetCore` 
+  - (opt) `Google.Protobuf` 
+  - (opt) `Grpc.Tools` 
+- Add to `Basket.API.csproj`:
+  ```csproj
+    <ItemGroup>
+        <Protobuf Include="..\..\Discount\Discount.GRPC\Protos\coupon.proto" GrpcServices="Client">
+            <Link>Protos\coupon.proto</Link>
+        </Protobuf>
+    </ItemGroup>
+  ```
+  (should also work with Right click > Add existing file ...)
+- Coding:
+  - GrpcServices/ 
+    - CouponGrpcService.cs
+  - Controllers/
+    - BasketController.cs
+    ```cs
+      | private readonly IBasketRepository _repository;
+    + | private readonly CouponGrpcService _couponGrpcService;
+    + | private readonly ILogger<BasketController> _logger;
+    ```
+
+    ```cs
+    + |  ... BasketController(..., CouponGrpcService couponGrpcService, ILogger<BasketController> logger)
+      |  {
+      |      _repository = repository ?? throw ...
+    + |      _couponGrpcService = couponGrpcService ?? throw ...
+    + |      _logger = logger ?? throw ...
+      |  }
+    ```
+
+    ```cs
+      | ... UpdateBasket([FromBody] ShoppingCart basket)
+      | {
+    + |     foreach (var item in basket.Items)
+    + |     {
+    + |         try
+    + |         {
+    + |             var coupon = await _couponGrpcService.GetDiscount(item.ProductName);
+    + |             item.Price -= coupon.Amount;
+    + |         }
+    + |         catch (RpcException e)
+    + |         {
+    + |             _logger.LogInformation("Error while retrieving coupon for item {ProductName}: {message}", item.ProductName, e.Message);
+    + |         }
+    + |     }
+
+    + |     return Ok(await _repository.UpdateBasket(basket));
+    + | }
+    ```
+  - Program.cs
+  ```cs
+  builder.Services.AddGrpcClient<CouponProtoService.CouponProtoServiceClient>(
+    options => options.Address = new Uri(builder.Configuration["GrpcSettings:DiscountUrl"]));
+  builder.Services.AddScoped<CouponGrpcService>();
+  ```
+  - appsettings.Development.json:
+  ```json
+  + | "GrpcSettings": {
+  + |   "DiscountUrl":  "http://localhost:5003"
+  + | },
+  ```
+  - docker-compose.override.yml
+  ```yml
+    | basket.api:
+    |   ...
+    |   environment:
+    |     ...
+  + |     - "GrpcSettings:DiscountUrl=http://discount.grpc:8080"
+    |   depends_on:
+    |     ...
+  + |     - discount.grpc
+  ```
+
+- `docker-compose down`
+- `docker-compose build`
+- `docker-compose up -d`
+
+- Testing:
+  - Open Discount.API
+    - GET: `IPhone X`
+    - Should return coupon with `150`
+  - Open Basket API
+  - GET: username `rs2`
+  - PUT:
+  ```json
+  {
+    "username": "rs2",
+    "items": [
+      {
+        "quantity": 2,
+        "color": "white",
+        "price": 950,
+        "productId": "602d2149e773f2a3990b47f5",
+        "productName": "IPhone X"
+      },
+      {
+        "quantity": 1,
+        "color": "white",
+        "price": 380,
+        "productId": "602d2149e773f2a3990b47f9",
+        "productName": "HTC U11+ Plus"
+      }
+    ]
+  }
+  ```
+  Should return response where the price is `800` for `IPhone X`
+
+
+# Unit testing
+
+- Create new solution folder: `Webstore/Tests/Basket/`
+- Create test project:
+  - Type: Unit Test
+  - Location: `Webstore/Tests/Basket/`
+  - Name: `Basket.API.Tests`
+  - Type: `NUnit`
+- Coding:
+  - `Basket.API`:
+    - Introduce: `Services/BasketService.cs`
+      - 
+    - Refactor `BasketController`
+      - Move controller method implementations to `BasketService.cs`
+      - Introduce `ICouponGrpcService.cs` and make `CouponGrpcService` implement it
+      - Add `Extensions/BasketExtensions.cs`
+  - `Basket.API.Tests`:
+    - Delete default template classes
+    - Coding:
+      - `Mocks/`
+        - `TestBasketRepository.cs`
+        - `TestCouponGrpcService.cs`
+        - `TestLogger.cs`
+      - `BasketServiceTests.cs`
