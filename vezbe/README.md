@@ -65,14 +65,18 @@
     - [Белешке](./beleske.pdf#page=14)
         - [Белешке са часа](./beleske/03_grpc_discount.md){:target="_blank"}
 
-1. Јединично тестирање микросервиса, инверзија зависности
+1. Јединично тестирање микросервиса, објекти имитатори
     - Теме:
-        - Docker Compose
-        - PostgreSQL СУБП
-        - gRPC
+        - xUnit и NUnit радни оквири за тестирање
+        - тестирање помоћу објеката имитатора (радни оквир Moq)
+        - имитатори база података
     - Микросервиси:
-        - Discount
+        - Basket API тестови
     - [Белешке са часа](./beleske/03_grpc_discount.md){:target="_blank"}
+    - Примери
+        - [xUnit](https://github.com/xunit/samples.xunit)
+        - [nUnit](https://github.com/nunit/nunit-csharp-samples)
+        - [Moq документација](https://documentation.help/Moq/)
 
 1. Развој вођен доменом
     - Теме:
