@@ -4,9 +4,10 @@
 
 ## Наставници и асистенти  
 
-* Наставник: **[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}**
+<!-- * Наставник: **[проф. др Владимир Филиповић](https://vladofilipovic.github.io/index-en.html){:target="_blank"}** -->
+* Наставник: **[др Стефан Капунац](https://poincare.matf.bg.ac.rs/~stefan.kapunac/){:target="_blank"}**
 
-* Асистент: **[Иван Ристовић](https://matf.ristovic.net){:target="_blank"}**
+* Асистент: **[др Иван Ристовић](https://matf.ristovic.net){:target="_blank"}**
 
 ## План и програм курса
 
