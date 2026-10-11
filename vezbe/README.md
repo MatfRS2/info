@@ -23,125 +23,125 @@
     - [Белешке](./beleske.pdf#page=3)
 	- [Помоћ за инсталацију ресурса](./pomoc-za-instalaciju.pdf)
 
-1. Развој микросервиса уз развојни оквир .NET 10
-    - Теме:
-        - Контејнеризација микросервиса и екстерних ресурса: Docker
-        - JetBrains Rider; Web API пројекти
-        - Повезивање на MongoDB СУБП
-    - Микросервиси:
-        - Catalog API
-    - [Белешке](./beleske.pdf#page=3)
-        - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"}
-        - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
+<!-- 1. Развој микросервиса уз развојни оквир .NET 10 -->
+<!--     - Теме: -->
+<!--         - Контејнеризација микросервиса и екстерних ресурса: Docker -->
+<!--         - JetBrains Rider; Web API пројекти -->
+<!--         - Повезивање на MongoDB СУБП -->
+<!--     - Микросервиси: -->
+<!--         - Catalog API -->
+<!--     - [Белешке](./beleske.pdf#page=3) -->
+<!--         - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"} -->
+<!--         - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"} -->
 
-1. Контејнеризација микросервиса
-    - Теме:
-        - Развој каталога веб продавнице
-        - Контејнеризација микросервиса: Dockerfile
-    - Микросервиси:
-        - Catalog API
-    - [Белешке](./beleske.pdf#page=3)
-        - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"}
-        - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
+<!-- 1. Контејнеризација микросервиса -->
+<!--     - Теме: -->
+<!--         - Развој каталога веб продавнице -->
+<!--         - Контејнеризација микросервиса: Dockerfile -->
+<!--     - Микросервиси: -->
+<!--         - Catalog API -->
+<!--     - [Белешке](./beleske.pdf#page=3) -->
+<!--         - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"} -->
+<!--         - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"} -->
 
-1. Вишеструки микросервиси и кеширање података
-    - Теме:
-        - Контејнеризација микросервиса у продукцији
-            - повезивање контејнера (`docker networks`)
-        - Redis
-    - Микросервиси:
-        - Basket API
-    - [Белешке](./beleske.pdf#page=7)
-        - [Белешке са часа](./beleske/02_compose_basket_api.md){:target="_blank"}
-        - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
+<!-- 1. Вишеструки микросервиси и кеширање података -->
+<!--     - Теме: -->
+<!--         - Контејнеризација микросервиса у продукцији -->
+<!--             - повезивање контејнера (`docker networks`) -->
+<!--         - Redis -->
+<!--     - Микросервиси: -->
+<!--         - Basket API -->
+<!--     - [Белешке](./beleske.pdf#page=7) -->
+<!--         - [Белешке са часа](./beleske/02_compose_basket_api.md){:target="_blank"} -->
+<!--         - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"} -->
 
-1. Синхрона комуникација између микросервиса и позиви удаљених процедура
-    - Теме:
-        - Docker Compose
-        - PostgreSQL СУБП
-        - gRPC
-    - Микросервиси:
-        - Discount
-    - [Белешке](./beleske.pdf#page=14)
-        - [Белешке са часа](./beleske/03_grpc_discount.md){:target="_blank"}
+<!-- 1. Синхрона комуникација између микросервиса и позиви удаљених процедура -->
+<!--     - Теме: -->
+<!--         - Docker Compose -->
+<!--         - PostgreSQL СУБП -->
+<!--         - gRPC -->
+<!--     - Микросервиси: -->
+<!--         - Discount -->
+<!--     - [Белешке](./beleske.pdf#page=14) -->
+<!--         - [Белешке са часа](./beleske/03_grpc_discount.md){:target="_blank"} -->
 
-1. Јединично тестирање микросервиса, објекти имитатори
-    - Теме:
-        - xUnit и NUnit радни оквири за тестирање
-        - тестирање помоћу објеката имитатора (радни оквир Moq)
-        - имитатори база података
-    - Микросервиси:
-        - Basket API тестови
-    - [Белешке са часа](./beleske/03_grpc_discount.md){:target="_blank"}
-    - Примери
-        - [xUnit](https://github.com/xunit/samples.xunit)
-        - [nUnit](https://github.com/nunit/nunit-csharp-samples)
-        - [Moq документација](https://documentation.help/Moq/)
+<!-- 1. Јединично тестирање микросервиса, објекти имитатори -->
+<!--     - Теме: -->
+<!--         - xUnit и NUnit радни оквири за тестирање -->
+<!--         - тестирање помоћу објеката имитатора (радни оквир Moq) -->
+<!--         - имитатори база података -->
+<!--     - Микросервиси: -->
+<!--         - Basket API тестови -->
+<!--     - [Белешке са часа](./beleske/03_grpc_discount.md){:target="_blank"} -->
+<!--     - Примери -->
+<!--         - [xUnit](https://github.com/xunit/samples.xunit) -->
+<!--         - [nUnit](https://github.com/nunit/nunit-csharp-samples) -->
+<!--         - [Moq документација](https://documentation.help/Moq/) -->
 
-1. Развој вођен доменом
-    - Теме:
-        - Развој вођен доменом (DDD) у микросервисима
-        - Чиста архитектура
-    - Микросервиси:
-        - Ordering
-    - [Презентација о развоју вођеним доменом](./ddd.pdf)
-    - [Белешке](./beleske.pdf#page=23)
-        - [Белешке са часа](./beleske/04_ordering.md){:target="_blank"}
+<!-- 1. Развој вођен доменом -->
+<!--     - Теме: -->
+<!--         - Развој вођен доменом (DDD) у микросервисима -->
+<!--         - Чиста архитектура -->
+<!--     - Микросервиси: -->
+<!--         - Ordering -->
+<!--     - [Презентација о развоју вођеним доменом](./ddd.pdf) -->
+<!--     - [Белешке](./beleske.pdf#page=23) -->
+<!--         - [Белешке са часа](./beleske/04_ordering.md){:target="_blank"} -->
 
-1. Раздвајање одговорности наредби и упита
-    - Теме:
-        - CQRS
-        - MediatR
-    - Микросервиси:
-        - Ordering
-    - [Белешке](./beleske.pdf#page=23)
-        - [Белешке са часа](./beleske/04_ordering.md){:target="_blank"}
+<!-- 1. Раздвајање одговорности наредби и упита -->
+<!--     - Теме: -->
+<!--         - CQRS -->
+<!--         - MediatR -->
+<!--     - Микросервиси: -->
+<!--         - Ordering -->
+<!--     - [Белешке](./beleske.pdf#page=23) -->
+<!--         - [Белешке са часа](./beleske/04_ordering.md){:target="_blank"} -->
 
-1. Entity Framework Core и миграције база података у микросервисима
-    - Теме:
-        - SQLServer СУБП
-        - EF Core
-        - Миграције БП
-    - Микросервиси:
-        - Ordering
-    - [Белешке](./beleske.pdf#page=29)
-        - [Белешке са часа](./beleske/04_ordering.md){:target="_blank"}
+<!-- 1. Entity Framework Core и миграције база података у микросервисима -->
+<!--     - Теме: -->
+<!--         - SQLServer СУБП -->
+<!--         - EF Core -->
+<!--         - Миграције БП -->
+<!--     - Микросервиси: -->
+<!--         - Ordering -->
+<!--     - [Белешке](./beleske.pdf#page=29) -->
+<!--         - [Белешке са часа](./beleske/04_ordering.md){:target="_blank"} -->
 
-1. Асинхрона комуникација између микросервиса и редови порука
-    - Теме:
-        - RabbitMQ
-    - Микросервиси:
-        - Basket
-        - Ordering
-    - [Белешке](./beleske.pdf#page=33)
-        - [Белешке са часа](./beleske/05_rabbitmq.md){:target="_blank"}
+<!-- 1. Асинхрона комуникација између микросервиса и редови порука -->
+<!--     - Теме: -->
+<!--         - RabbitMQ -->
+<!--     - Микросервиси: -->
+<!--         - Basket -->
+<!--         - Ordering -->
+<!--     - [Белешке](./beleske.pdf#page=33) -->
+<!--         - [Белешке са часа](./beleske/05_rabbitmq.md){:target="_blank"} -->
 
-1. Мрежни пролази*
-    - Теме:
-        - Ocelot
-    - Микросервиси:
-        - API Gateway
-    - [Белешке](./beleske.pdf#page=38)
+<!-- 1. Мрежни пролази* -->
+<!--     - Теме: -->
+<!--         - Ocelot -->
+<!--     - Микросервиси: -->
+<!--         - API Gateway -->
+<!--     - [Белешке](./beleske.pdf#page=38) -->
 
-1. Безбедност микросервиса
-    - Теме:
-        - Аутентификација
-        - Ауторизација
-        - Microsoft ASP.NET Identity
-        - JWT
-    - Микросервиси:
-        - IdentityServer
-    - [Белешке](./beleske.pdf#page=42)
-        - [Белешке са часа](./beleske/06_identity.md){:target="_blank"}
+<!-- 1. Безбедност микросервиса -->
+<!--     - Теме: -->
+<!--         - Аутентификација -->
+<!--         - Ауторизација -->
+<!--         - Microsoft ASP.NET Identity -->
+<!--         - JWT -->
+<!--     - Микросервиси: -->
+<!--         - IdentityServer -->
+<!--     - [Белешке](./beleske.pdf#page=42) -->
+<!--         - [Белешке са часа](./beleske/06_identity.md){:target="_blank"} -->
 
-1. Развој једностраничних клијентских апликација*
-    - Теме:
-        - Једностраничне клијентске апликације (SPA)
-        - Angular 18
-    - Микросервиси:
-        - WebSPA
-    - [Белешке](./beleske.pdf#page=54)
+<!-- 1. Развој једностраничних клијентских апликација* -->
+<!--     - Теме: -->
+<!--         - Једностраничне клијентске апликације (SPA) -->
+<!--         - Angular 18 -->
+<!--     - Микросервиси: -->
+<!--         - WebSPA -->
+<!--     - [Белешке](./beleske.pdf#page=54) -->
 
-* Ово је тема коју нисмо стигли да прођемо ове године.
+<!-- * Ово је тема коју нисмо стигли да прођемо ове године. -->
 
 [РС 2](../README.md)
