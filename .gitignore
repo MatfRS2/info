@@ -1199,3 +1199,10 @@ _ReSharper*/
 /vezbe.2020.2021./README.md
 /vezbe.2020.2021./literatura.zip
 /predavanja/primeri-dotnetcore/HelloWorld/.vs/HelloWorld/DesignTimeBuild
+
+# Local Jekyll preview
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.bundle/
+/vendor/

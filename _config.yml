@@ -7,3 +7,14 @@ analytics:
   google:
     measurement_id: "G-NR9Z0M79CR"
     anonymize_ip: # true, false (default)
+
+# Local preview dependencies are not published.
+exclude:
+  - vendor
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
