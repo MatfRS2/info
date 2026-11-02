@@ -23,37 +23,37 @@
     - [Белешке](./beleske.pdf#page=3)
 	- [Помоћ за инсталацију ресурса](./pomoc-za-instalaciju.pdf)
 
-<!-- 1. Развој микросервиса уз развојни оквир .NET 10 -->
-<!--     - Теме: -->
-<!--         - Контејнеризација микросервиса и екстерних ресурса: Docker -->
-<!--         - JetBrains Rider; Web API пројекти -->
-<!--         - Повезивање на MongoDB СУБП -->
-<!--     - Микросервиси: -->
-<!--         - Catalog API -->
-<!--     - [Белешке](./beleske.pdf#page=3) -->
-<!--         - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"} -->
-<!--         - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"} -->
+1. Развој микросервиса уз развојни оквир .NET 10
+    - Теме:
+        - Контејнеризација микросервиса и екстерних ресурса: Docker
+        - JetBrains Rider; Web API пројекти
+        - Повезивање на MongoDB СУБП
+    - Микросервиси:
+        - Catalog API
+    - [Белешке](./beleske.pdf#page=3)
+        - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"}
+        - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
 
-<!-- 1. Контејнеризација микросервиса -->
-<!--     - Теме: -->
-<!--         - Развој каталога веб продавнице -->
-<!--         - Контејнеризација микросервиса: Dockerfile -->
-<!--     - Микросервиси: -->
-<!--         - Catalog API -->
-<!--     - [Белешке](./beleske.pdf#page=3) -->
-<!--         - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"} -->
-<!--         - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"} -->
+1. Контејнеризација микросервиса
+    - Теме:
+        - Развој каталога веб продавнице
+        - Контејнеризација микросервиса: Dockerfile
+    - Микросервиси:
+        - Catalog API
+    - [Белешке](./beleske.pdf#page=3)
+        - [Белешке са часа](./beleske/01_docker_catalog_api.md){:target="_blank"}
+        - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
 
-<!-- 1. Вишеструки микросервиси и кеширање података -->
-<!--     - Теме: -->
-<!--         - Контејнеризација микросервиса у продукцији -->
-<!--             - повезивање контејнера (`docker networks`) -->
-<!--         - Redis -->
-<!--     - Микросервиси: -->
-<!--         - Basket API -->
-<!--     - [Белешке](./beleske.pdf#page=7) -->
-<!--         - [Белешке са часа](./beleske/02_compose_basket_api.md){:target="_blank"} -->
-<!--         - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"} -->
+1. Вишеструки микросервиси и кеширање података
+    - Теме:
+        - Контејнеризација микросервиса у продукцији
+            - повезивање контејнера (`docker networks`)
+        - Redis
+    - Микросервиси:
+        - Basket API
+    - [Белешке](./beleske.pdf#page=7)
+        - [Белешке са часа](./beleske/02_compose_basket_api.md){:target="_blank"}
+        - [Кратак туторијал за алат Docker](https://github.com/Robotmurlock/MATF-AZRS/tree/main/tema07_docker){:target="_blank"}
 
 <!-- 1. Синхрона комуникација између микросервиса и позиви удаљених процедура -->
 <!--     - Теме: -->
